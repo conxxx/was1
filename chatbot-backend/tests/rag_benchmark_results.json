@@ -1,0 +1,14 @@
+{
+    "end_to_end_qa": [],
+    "retrieval_evaluation": {
+        "standard": {
+            "total_queries_in_dataset": 15,
+            "queries_evaluated": 15,
+            "hit_rate": 93.33333333333333,
+            "mrr": 0.7607142857142858,
+            "avg_precision_at_k": 0.24666666666666667,
+            "avg_recall_at_k": 0.9333333333333333,
+            "k_value_for_metrics": 10
+        }
+    }
+}
