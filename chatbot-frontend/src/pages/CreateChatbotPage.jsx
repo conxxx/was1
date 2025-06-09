@@ -16,11 +16,9 @@ function CreateChatbotPage() {
   const [chatbotName, setChatbotName] = useState('');
   // State for enabling/disabling source types
   const [useUrlSource, setUseUrlSource] = useState(true); // Default to URL enabled
-  const [useSitemapSource, setUseSitemapSource] = useState(false);
   const [useFileSource, setUseFileSource] = useState(false);
   // State for source values
   const [urlValue, setUrlValue] = useState('');
-  const [sitemapValue, setSitemapValue] = useState('');
   const [files, setFiles] = useState([]); // Array for File objects or { name: string, isExisting: true }
   const [filesToRemove, setFilesToRemove] = useState([]); // Track names of existing files to remove
   // State for discovery process
@@ -55,8 +53,6 @@ function CreateChatbotPage() {
           const types = data.source_type ? data.source_type.split('+') : [];
           setUseUrlSource(!!details.original_url); 
           setUrlValue(details.original_url || '');
-          setUseSitemapSource(!!details.original_sitemap);
-          setSitemapValue(details.original_sitemap || '');
           setUseFileSource(types.includes('Files') || details.files_uploaded?.length > 0);
           setFiles(details.files_uploaded?.map(name => ({ name: name, isExisting: true })) || []); 
           setSelectedUrls(new Set(details.selected_urls || []));
@@ -103,9 +99,9 @@ function CreateChatbotPage() {
   };
 
   const handleDiscoverLinks = async (discoveryType) => { 
-    const sourceValue = discoveryType === 'url' ? urlValue : sitemapValue;
+    const sourceValue = urlValue;
     if (!sourceValue) {
-      alert(`Please enter a ${discoveryType === 'url' ? 'Website URL' : 'Sitemap URL'}.`);
+      alert(`Please enter a Website URL.`);
       return;
     }
     setDiscoveryError('');
@@ -223,7 +219,7 @@ function CreateChatbotPage() {
     }
     let hasSource = false; 
     if (useFileSource && files.length > 0) hasSource = true;
-    if ((useUrlSource || useSitemapSource) && selectedUrls.size > 0) hasSource = true; 
+    if (useUrlSource && selectedUrls.size > 0) hasSource = true; 
 
     if (!hasSource) {
        setError('Please provide at least one data source (Selected URLs or Files).');
@@ -237,8 +233,6 @@ function CreateChatbotPage() {
         name: chatbotName, 
         useWebsite: useUrlSource, 
         websiteUrl: useUrlSource ? urlValue : '', 
-        useSitemap: useSitemapSource, 
-        sitemapUrl: useSitemapSource ? sitemapValue : '', 
         useFiles: useFileSource, 
         // Only include actual File objects (new uploads)
         files: useFileSource ? files.filter(f => f instanceof File) : [], 
@@ -359,16 +353,6 @@ function CreateChatbotPage() {
               />
               <FiLink className="h-5 w-5" /> Website URL
             </label>
-            <label htmlFor="useSitemapSource" className="flex items-center gap-2 cursor-pointer text-sm font-medium text-navy-700 dark:text-white">
-              <input
-                type="checkbox"
-                id="useSitemapSource"
-                checked={useSitemapSource}
-                onChange={(e) => setUseSitemapSource(e.target.checked)}
-                className="form-checkbox h-5 w-5 text-brand-500 rounded border-gray-300 focus:ring-brand-500 dark:border-gray-600 dark:bg-navy-700 dark:focus:ring-brand-400 dark:checked:bg-brand-400"
-              />
-              <FiLink className="h-5 w-5" /> Sitemap
-            </label>
             <label htmlFor="useFileSource" className="flex items-center gap-2 cursor-pointer text-sm font-medium text-navy-700 dark:text-white">
               <input
                 type="checkbox"
@@ -400,31 +384,6 @@ function CreateChatbotPage() {
                   type="button"
                   onClick={() => handleDiscoverLinks('url')}
                   disabled={isDiscovering || !urlValue}
-                  className="flex items-center justify-center gap-2 linear rounded-md bg-brand-500 px-4 py-2 text-sm font-medium text-white transition duration-200 hover:bg-brand-600 active:bg-brand-700 dark:bg-brand-400 dark:hover:bg-brand-300 dark:active:bg-brand-200 disabled:opacity-50 disabled:cursor-not-allowed"
-                >
-                  {isDiscovering ? <FiLoader className="animate-spin h-4 w-4" /> : <FiLink className="h-4 w-4" />}
-                  {isDiscovering ? 'Discovering...' : 'Discover Links'}
-                </button>
-              </div>
-            )}
-
-            {useSitemapSource && (
-              <div className="border-l-4 border-brand-500 dark:border-brand-400 pl-4 py-2 bg-gray-50 dark:bg-navy-700 rounded-r-lg">
-                <InputField
-                  variant="outlined"
-                  label="Sitemap URL"
-                  placeholder="https://example.com/sitemap.xml"
-                  id="sitemapValue"
-                  type="url"
-                  value={sitemapValue}
-                  onChange={(e) => setSitemapValue(e.target.value)}
-                  disabled={isLoading}
-                  extra="mb-2"
-                />
-                <button
-                  type="button"
-                  onClick={() => handleDiscoverLinks('sitemap')}
-                  disabled={isDiscovering || !sitemapValue}
                   className="flex items-center justify-center gap-2 linear rounded-md bg-brand-500 px-4 py-2 text-sm font-medium text-white transition duration-200 hover:bg-brand-600 active:bg-brand-700 dark:bg-brand-400 dark:hover:bg-brand-300 dark:active:bg-brand-200 disabled:opacity-50 disabled:cursor-not-allowed"
                 >
                   {isDiscovering ? <FiLoader className="animate-spin h-4 w-4" /> : <FiLink className="h-4 w-4" />}
@@ -491,7 +450,7 @@ function CreateChatbotPage() {
           {/* Discovered Links Column (1/3 width on large screens) */}
           <div className="lg:w-1/3 flex flex-col gap-6">
             {/* Discovered Links Card (Only if URL or Sitemap is used) */}
-            {(useUrlSource || useSitemapSource) && (
+            {useUrlSource && (
               <Card extra="p-6">
             <h2 className="text-xl font-semibold text-navy-700 dark:text-white mb-4">Discovered Links</h2>
             <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">Select the links you want to include as knowledge sources.</p>
@@ -583,7 +542,7 @@ function CreateChatbotPage() {
                     {discoveryTaskId ? (
                       <span>Discovery finished, no URLs found.</span>
                     ) : (
-                      <span>Click "Discover Links" above to find links from the URL or Sitemap.</span>
+                      <span>Click "Discover Links" above to find links from the URL.</span>
                     )}
                   </div>
                 )}

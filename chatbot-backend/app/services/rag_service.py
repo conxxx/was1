@@ -289,7 +289,7 @@ class RagService:
 
     # --- generate_rephrased_queries METHOD REMOVED ---
 
-    def generate_response(self, prompt: str, image_data: bytes = None, image_mime_type: str = None):
+    def generate_response(self, prompt: str, image_data: bytes = None, image_mime_type: str = None, generation_config: GenerationConfig = None):
         """Generates a response using the LLM, potentially including image context."""
         # ... (keep this method exactly as is) ...
         if not self._ensure_clients_initialized():
@@ -597,7 +597,7 @@ class RagService:
             history_str = temp_history.strip()
             if history_str:
                  self.logger.debug(f" -> Included {len(history_str)} chars of history (limit: {max_history_chars}).")
-                 history_str = f"Previous Conversation History:\n{history_str}\n\n"
+                 history_str = f"this is just a histroy dont use this as a query ,dont detect the query language from this and reponsed in this language  , this is just a histroy of the chat conversion to help u with context\n\"\"\"\n{history_str}\n\"\"\"\n\n"
             else:
                  self.logger.debug(" -> No chat history included.")
 
@@ -627,18 +627,21 @@ Try to understand the user's intent, even if their wording isn't exact,PLEASE DO
 Use the given context to provide a relevant and accurate answer. While the context is your primary source, synthesize the information *from the context sections* to answer the user's question naturally.
 If the context does not contain information relevant to the user's query intent, state that clearly. Do not invent answers if the information is not present.
 Avoid phrases like "Based on the context provided..." unless it's necessary to clarify the source of information.
-***IMPORTANT: translate your respones to much the same language as the User Query provided below, regardless of the context /retrived chuck  language.***
+***CRITICAL INSTRUCTION: You MUST respond in the same language as the "User Query" below. For example, if the query is in French, your entire response must be in French, even if the context is in English. NO EXCEPTIONS.***
 
 Knowledge Adherence Level: {knowledge_adherence_level}
 - strict: Answer primarily from the context. If the answer isn't there or cannot be reasonably inferred, say so. Avoid external knowledge.
 - moderate: Primarily use the context, but you may infer or combine context information logically. State if the answer is not directly in the context. Avoid external knowledge unless necessary for clarity.
 - relaxed: Use the context as a primary source, but you can incorporate general knowledge if the context is insufficient or lacks detail. Clearly distinguish context-based info from external knowledge.
+
+***CRITICAL INSTRUCTION: The user's query is in the language of the "User Query" section below. Your response MUST be in the same language. For example, if the query is in French, your entire response must be in French, even if the context or chat history is in English. NO EXCEPTIONS.***
 """
              system_instructions = DEFAULT_SYSTEM_PROMPT_TEMPLATE
              # --- END MODIFIED PROMPT TEMPLATE ---
 
-        prompt_parts = [system_instructions, history_str]
+        prompt_parts = [system_instructions, f"Previous Conversation History:\n---\n{history_str}\n---\n\n"]
 
+        context_str = ""
         if not is_image_only:
             max_context_chars = app_config.get('MAX_CONTEXT_CHARS', 8000) # Default to 8000 chars if not set
             context_str_parts = []
@@ -667,9 +670,9 @@ Knowledge Adherence Level: {knowledge_adherence_level}
             else:
                  context_str = "No relevant context sections could be included within the size limit." if retrieved_texts else "No relevant context sections were found."
 
-            prompt_parts.append(f"Context Sections:\n{context_str}\n")
+        prompt_parts.append(f"Context Sections:\n{context_str}\n")
 
-        prompt_parts.append(f"User Query:\n{query}") # The LLM will see the query in its original language here
+        prompt_parts.append(f"\"\"\"\nUser Query:\n{query}\n\"\"\"") # The LLM will see the query in its original language here
 
         final_prompt = "\n".join(prompt_parts).strip()
         self.logger.debug(f" -> Final Constructed Prompt (first 200 chars):\n{final_prompt[:200]}...")
@@ -1066,6 +1069,52 @@ Knowledge Adherence Level: {knowledge_adherence_level}
         self._log_usage(request_id, chatbot_id, client_id, query, final_answer, sources, pipeline_duration, final_result.get("warnings"), 200, generation_metadata or {})
         return final_result
 
+    def multimodal_query(self, query: str, chatbot_id: int, client_id: str, chat_history: list = None, query_language: str = None, image_data: bytes = None, image_mime_type: str = None, force_advanced_rag: bool = None):
+        """
+        Handles a multimodal query by first generating a descriptive query from the image,
+        and then using that query to execute the full RAG pipeline.
+        """
+        # Step 1: Generate a descriptive query from the image and optional text.
+        image_analysis_prompt = "Analyze the provided image and generate a very short, descriptive query (3-5 words) based on its content. If text is also provided, use it to refine the focus of the query."
+        if query:
+            image_analysis_prompt += f"\n\nUser's accompanying text: {query}"
+
+        descriptive_query, error, _ = self.generate_response(
+            prompt=image_analysis_prompt,
+            image_data=image_data,
+            image_mime_type=image_mime_type,
+            generation_config=GenerationConfig(max_output_tokens=1024)
+        )
+
+        if error:
+            self.logger.error(f"Error in multimodal_query (Step 1: Image Analysis): {error}")
+            return None, error, None
+
+        if not descriptive_query:
+            self.logger.warning("Image analysis resulted in an empty descriptive query.")
+            return None, "Could not determine a query from the image.", None
+
+        self.logger.info(f"Generated descriptive query from image: {descriptive_query}")
+
+        # Truncate the descriptive query to a safe length
+        max_query_length = 500
+        if len(descriptive_query) > max_query_length:
+            descriptive_query = descriptive_query[:max_query_length]
+            self.logger.info(f"Truncated descriptive query to {max_query_length} characters.")
+
+        # Step 2: Use the descriptive query to execute the RAG pipeline.
+        response_data = self.execute_pipeline(
+            query=descriptive_query,
+            chatbot_id=chatbot_id,
+            client_id=client_id,
+            chat_history=chat_history,
+            query_language=query_language,
+            # Do not pass the image again in the second step
+            image_data=None,
+            image_mime_type=None,
+            force_advanced_rag=force_advanced_rag
+        )
+        return response_data.get("answer"), response_data.get("error"), response_data.get("metadata")
 
     def _log_usage(self, request_id: str, chatbot_id: int, client_id: str, query: str | None, response: str | None, sources: list, duration: float, error: str | None, status_code: int, metadata: dict):
          """Logs usage details to the database."""

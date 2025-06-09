@@ -272,7 +272,7 @@ function WidgetCustomizationSettings({ chatbotId, onSaveSuccess }) { // Add onSa
           ref={appearanceCardRef}
           onMouseMove={(e) => handleMouseMove(e, appearanceCardRef)}
           onMouseLeave={() => handleMouseLeave(appearanceCardRef)}
-          className="bg-white dark:bg-navy-800 p-6 rounded-lg shadow-lg border border-gray-200 dark:border-navy-700 transition-transform duration-400 ease-in-out"
+          className="bg-white dark:bg-navy-800 p-6 rounded-lg shadow-lg border border-gray-200 dark:border-navy-700 transition-transform duration-400 ease-in-out hidden"
           style={{ transformStyle: 'preserve-3d' }} // Needed for perspective
         >
           <div style={{ transform: 'translateZ(20px)' }}> {/* Lift content slightly */}

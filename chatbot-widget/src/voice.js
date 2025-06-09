@@ -78,7 +78,7 @@ export async function startRecording() {
 
                  // Add AudioWorklet module
                  try {
-                     const workletPath = 'dist/vad-processor.js'; // Correct path relative to the HTML file
+                     const workletPath = '/dist/vad-processor.js'; // Absolute path from the root
                      console.log('[voice:startRecording] PRE-TRY: Attempting to load AudioWorklet module from:', workletPath);
                      await audioCtx.audioWorklet.addModule(workletPath)
                          .then(() => {
@@ -499,35 +499,35 @@ export function stopRecording() {
 
     // --- VAD Cleanup ---
     if (state.vadNode) {
-        console.log('[voice:stopRecording] Cleaning up VAD node.');
-        try {
-            state.vadNode.port.onmessage = null; // Remove listener first
-            state.vadNode.port.onmessageerror = null;
-            state.vadNode.port.close();
-            state.vadNode.disconnect(); // Disconnects from source and any downstream
-        } catch (e) {
-            console.error('[voice:stopRecording] Error during VAD node cleanup:', e);
-        } finally {
-            state.setVadNode(null);
+        console.log("[voice:stopRecording] Cleaning up VAD node...");
+        state.vadNode.port.onmessage = null; // Remove listener
+        state.vadNode.port.onmessageerror = null;
+        // Do not close the port, it can be reused.
+        state.vadNode.disconnect();
+        // Do not nullify the vadNode, it can be reused.
+        console.log("[voice:stopRecording] VAD node disconnected.");
+    }
+    if (state.mediaStreamSource) {
+        console.log("[voice:stopRecording] Cleaning up MediaStreamSource...");
+        // Disconnect from any nodes it might be connected to
+        state.mediaStreamSource.disconnect();
+        // Stop all tracks on the stream associated with the source
+        const stream = state.mediaStreamSource.mediaStream;
+        if (stream && stream.getTracks) {
+            stream.getTracks().forEach(track => {
+                console.log(`[voice:stopRecording] Stopping media track: ${track.kind} (${track.label})`);
+                track.stop();
+            });
         }
-    } else {
-        console.log('[voice:stopRecording] No VAD node found in state to clean up.');
+        // Do not nullify the mediaStreamSource, it will be created fresh on next recording.
+        console.log("[voice:stopRecording] MediaStreamSource tracks stopped.");
     }
 
-    // --- MediaStreamSource Cleanup ---
-    // Disconnect source AFTER VAD node is disconnected from it
-    if (state.mediaStreamSource) {
-        console.log('[voice:stopRecording] Cleaning up MediaStreamSource.');
-        try {
-            state.mediaStreamSource.disconnect(); // Disconnect from all connections
-        } catch (e) {
-            console.error('[voice:stopRecording] Error disconnecting MediaStreamSource:', e);
-        } finally {
-            state.setMediaStreamSource(null);
-        }
-    } else {
-         console.log('[voice:stopRecording] No MediaStreamSource found in state to clean up.');
-    }
+    // --- AudioContext Cleanup ---
+    // The AudioContext is intentionally NOT closed here. It is reused across recordings
+    // to prevent the race condition that occurs when creating a new context and loading
+    // the AudioWorklet module simultaneously.
+    console.log(`[voice:stopRecording] AudioContext state is '${state.audioContext ? state.audioContext.state : 'null'}'. Leaving it open for reuse.`);
 
     // --- MediaRecorder Stop ---
     // Check state *before* stopping, as onstop handler relies on it
@@ -572,21 +572,11 @@ export function stopRecording() {
     // --- AudioContext Cleanup ---
     // Consider closing the context here or keeping it alive for future recordings
     // Closing ensures cleaner state but might add latency to next recording start.
-    // Let's close it for now.
-    if (state.audioContext && state.audioContext.state === 'running') {
-        console.log("[voice:stopRecording] Closing AudioContext...");
-        state.audioContext.close().then(() => {
-            console.log("[voice:stopRecording] AudioContext closed successfully.");
-        }).catch(e => console.error("[voice:stopRecording] Error closing AudioContext:", e))
-        .finally(() => {
-             state.setAudioContext(null); // Nullify even if close fails
-        });
-    } else {
-        console.log("[voice:stopRecording] AudioContext not running or not found, skipping close.");
-        if (state.audioContext) { // Nullify if it exists but wasn't running
-             state.setAudioContext(null);
-        }
-    }
+    // --- AudioContext Cleanup ---
+    // DO NOT close the audio context here. It should be reused for subsequent recordings
+    // to improve performance and avoid issues with re-initializing audio worklets.
+    // The context will be closed when the widget is fully destroyed if necessary.
+    console.log(`[voice:stopRecording] AudioContext state is '${state.audioContext ? state.audioContext.state : 'null'}'. Leaving it open for reuse.`);
 
     console.log("[voice:stopRecording] Cleanup finished.");
     console.log(`[voice:stopRecording:exit] Exiting. Final isRecording: ${state.isRecording}, userCancelledRecording: ${state.userCancelledRecording}`);

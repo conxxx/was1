@@ -293,7 +293,6 @@ class SummarizationService:
              raise PermissionError("Summarization feature is not enabled for this chatbot.")
 
         text_to_process = ""
-        detected_source_language = source_language
 
         # 1. Get Content (Scrape or use Paste)
         if content_type == 'url':
@@ -345,42 +344,28 @@ class SummarizationService:
             text_to_process = text_to_process[:MAX_INPUT_CHARS]
 
         # 2. Language Detection (if not provided, using Gemini)
-        if not detected_source_language:
-            step_start_time = time.time()
-            self.logger.info("Attempting language detection using Gemini...")
-            try:
-                # Use a sample for potentially long text to speed up detection
-                sample = text_to_process[:1000]
-                prompt = f"Detect the primary language of the following text. Respond with only the two-letter ISO 639-1 language code (e.g., 'en', 'es', 'fr'). Text: \"\"\"{sample}\"\"\""
-                detected_code = self._call_vertex_gemini_api(prompt, purpose="language_detection").lower()
-                # Basic validation of the returned code format
-                if len(detected_code) == 2 and detected_code.isalpha():
-                    detected_source_language = detected_code
-                    self.logger.info(f"Detected source language via Gemini: {detected_source_language}")
-                else:
-                    self.logger.warning(f"Gemini language detection returned unexpected format: '{detected_code}'. Defaulting to 'en'.")
-                    detected_source_language = 'en'
-            except (RuntimeError, ConnectionError) as e:
-                 self.logger.warning(f"Gemini language detection failed: {e}. Defaulting to 'en'.")
-                 detected_source_language = 'en'
-            except Exception as e:
-                 self.logger.error(f"Unexpected error during Gemini language detection: {e}", exc_info=True)
-                 detected_source_language = 'en' # Safer fallback
-            self.logger.info(f"PERF: Language Detection took {time.time() - step_start_time:.4f} seconds.")
-
-        # 3. Summarization (using Gemini)
+        # 2. Summarization (using Gemini)
         summary_text = ""
         step_start_time = time.time()
         try:
             self.logger.info(f"Performing summarization using Gemini ({GEMINI_MODEL_NAME})...")
-            # Construct a more explicit prompt for summarization
-            instruction = "Summarize the text concisely."
-            # If source language is known and different from target, include it in the prompt
-            if detected_source_language and detected_source_language != target_language:
-                instruction = f"The following text is in {detected_source_language}. {instruction}"
             
-            # Moved the IMPORTANT instruction to the end of the prompt
-            prompt = f"{instruction}\n\nText to summarize:\n\"\"\"{text_to_process}\"\"\"\n\nTask: Provide a concise summary of the text above.\nIMPORTANT: The summary MUST be written in {target_language}."
+            # Get the full name of the target language for a more robust prompt.
+            lang_map = {'am': 'Amharic', 'en': 'English', 'es': 'Spanish', 'fr': 'French', 'hy': 'Armenian'}
+            target_lang_name = lang_map.get(target_language, target_language) # Fallback to code if not in map
+
+            # A more robust prompt structure that directly instructs the model.
+            prompt = f"""**Instruction:**
+- Your task is to create a concise summary of the provided text.
+- The final summary MUST be written in {target_lang_name} ({target_language}), regardless of the language of the input text.
+
+**Text to Summarize:**
+\"\"\"
+{text_to_process}
+\"\"\"
+
+**Summary in {target_lang_name}:**
+"""
             
             self.logger.debug(f"Summarization prompt for Gemini: {prompt[:200]}...") # Log a part of the prompt
 
@@ -399,11 +384,11 @@ class SummarizationService:
             raise RuntimeError(f"An unexpected error occurred during summarization: {e}")
         self.logger.info(f"PERF: Summarization (LLM call) took {time.time() - step_start_time:.4f} seconds.")
 
-        # 4. Return Result (Translation step removed)
+        # 3. Return Result
         self.logger.info(f"PERF: Summarize method (chatbot {chatbot_id}) overall took {time.time() - overall_start_time:.4f} seconds (Success).")
         return {
             "summary": summary_text, # Use the directly generated summary
-            "original_language": detected_source_language,
+            "original_language": target_language, # Source language is assumed to be the target language
             "target_language": target_language # Return the requested target language
         }
 

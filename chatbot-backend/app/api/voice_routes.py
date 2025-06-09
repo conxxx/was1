@@ -2,6 +2,7 @@
 import base64
 from flask import Blueprint, request, jsonify, make_response, current_app, g
 from app.services.voice_service import synthesize_speech_google, transcribe_audio_google
+from app.utils import remove_markdown
 # Language detection removed from language_service
 from app.models import Chatbot, ChatMessage # Import Chatbot and ChatMessage
 from app.api.routes import require_api_key, get_rag_service # Import necessary items from main routes
@@ -188,9 +189,13 @@ def voice_interaction(chatbot_id):
         # 6. Perform TTS (using the original language specified in the request)
         tts_call_start_time = time.time()
         current_app.logger.info(f"Attempting TTS for chatbot {chatbot_id}, session {session_id}...")
-        current_app.logger.debug(f"TTS Input Text (first 100 chars): '{actual_response_text[:100]}...'")
+        
+        # Sanitize the response to remove Markdown before sending to TTS
+        sanitized_response_text = remove_markdown(actual_response_text)
+        
+        current_app.logger.debug(f"TTS Input Text (first 100 chars): '{sanitized_response_text[:100]}...'")
         current_app.logger.debug(f"TTS Language Code: '{language}'")
-        tts_audio_content = synthesize_speech_google(actual_response_text, language_short_code=language)
+        tts_audio_content = synthesize_speech_google(sanitized_response_text, language_short_code=language)
         current_app.logger.info(f"PERF: TTS (synthesize_speech_google) for chatbot {chatbot_id} took {time.time() - tts_call_start_time:.4f} seconds.")
 
         if tts_audio_content is None:

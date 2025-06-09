@@ -2350,15 +2350,28 @@ def query_chatbot_with_image(chatbot_id):
         # *** IMPORTANT: Assumes execute_pipeline is updated to accept image_data and mime_type ***
         # *** The actual implementation of passing image_data needs to happen in rag_service.py ***
         # Pass the original query and language directly to the RAG service
+        # Step 1: Get the descriptive query from the image analysis
+        descriptive_query, error, _ = rag_service.multimodal_query(
+            query=original_query,
+            chatbot_id=chatbot_id,
+            client_id=client_id,
+            image_data=image_data,
+            image_mime_type=mime_type
+        )
+
+        if error:
+            return jsonify({"error": error}), 500
+
+        # Step 2: Use the descriptive query to execute the RAG pipeline
         response_data = rag_service.execute_pipeline(
-            query=original_query, # Pass the original user query text
+            query=descriptive_query, # Pass the descriptive query from the image analysis
             chat_history=chat_history,
             query_language=query_language, # Pass the language provided by the client (or default 'en')
             # target_language=target_language, # Assuming RAG service determines target language internally
             client_id=client_id,
             chatbot_id=chatbot_id,
-            image_data=image_data, # Pass the validated image bytes
-            image_mime_type=mime_type # Pass the validated/guessed mime type
+            image_data=None, # Do not pass the image again
+            image_mime_type=None # Do not pass the image again
         )
 
         # Check if the service returned an error structure
