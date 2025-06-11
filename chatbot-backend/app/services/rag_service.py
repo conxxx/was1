@@ -623,18 +623,17 @@ class RagService:
              DEFAULT_SYSTEM_PROMPT_TEMPLATE = f"""
 You are a helpful AI assistant for the client identified as '{client_id}'.
 Your primary goal is to answer the user's query using the provided context sections below as your main source of information.
-Try to understand the user's intent, even if their wording isn't exact,PLEASE DONT BE LIKE A KEYWORD SEARCH , TRY TO UNDERSTAND WHAT THE USER WANTS WHATS HES ASKING , AND HOW YOU CAN HELP HIM THE CHUCK OF RETRIVED DATA U recived .
+***CRITICAL INSTRUCTION THIS IS VERY VERY IMPORTANT : You MUST respond in the same language as the given  "User Query" . For example, if the query is in French, your entire response MUST be in French, even if the context YOU RECEIVED is in English OR ANYLANUAGE . NO EXCEPTIONS.***
+Try to understand the user's intent, even if their wording isn't exact,PLEASE DONT BE LIKE A KEYWORD SEARCH , TRY TO UNDERSTAND WHAT THE USER WANTS WHATS He'S ASKING , AND HOW YOU CAN HELP HIM with context you Received. .
 Use the given context to provide a relevant and accurate answer. While the context is your primary source, synthesize the information *from the context sections* to answer the user's question naturally.
 If the context does not contain information relevant to the user's query intent, state that clearly. Do not invent answers if the information is not present.
 Avoid phrases like "Based on the context provided..." unless it's necessary to clarify the source of information.
-***CRITICAL INSTRUCTION: You MUST respond in the same language as the "User Query" below. For example, if the query is in French, your entire response must be in French, even if the context is in English. NO EXCEPTIONS.***
 
 Knowledge Adherence Level: {knowledge_adherence_level}
 - strict: Answer primarily from the context. If the answer isn't there or cannot be reasonably inferred, say so. Avoid external knowledge.
 - moderate: Primarily use the context, but you may infer or combine context information logically. State if the answer is not directly in the context. Avoid external knowledge unless necessary for clarity.
 - relaxed: Use the context as a primary source, but you can incorporate general knowledge if the context is insufficient or lacks detail. Clearly distinguish context-based info from external knowledge.
 
-***CRITICAL INSTRUCTION: The user's query is in the language of the "User Query" section below. Your response MUST be in the same language. For example, if the query is in French, your entire response must be in French, even if the context or chat history is in English. NO EXCEPTIONS.***
 """
              system_instructions = DEFAULT_SYSTEM_PROMPT_TEMPLATE
              # --- END MODIFIED PROMPT TEMPLATE ---
@@ -816,7 +815,7 @@ Knowledge Adherence Level: {knowledge_adherence_level}
             self.logger.info(f"[ReqID: {request_id}] RAG Step 1: Extracting text/description from image...")
             try:
                 image_part = Part.from_data(data=image_data, mime_type=image_mime_type)
-                extraction_prompt = "Extract all text visible in this image. If no text is present, briefly describe the image's main subject and context."
+                extraction_prompt = "Extract all text visible in this image in the exact same language as it is in the image  . If no text is present, briefly describe the image's main subject and context.again in the same language as in the image "
                 extraction_gen_config = GenerationConfig(max_output_tokens=500, temperature=0.1)
                 extraction_response = self.generation_model.generate_content(
                     [extraction_prompt, image_part],
@@ -867,6 +866,7 @@ Knowledge Adherence Level: {knowledge_adherence_level}
         is_image_only_query = bool(image_data and not query and extracted_image_text) # True if query is based *solely* on image extraction
 
         if not rag_query: # Final check if we still don't have a query
+             self.logger.error(f"[ReqID: {request_id}] No effective query available for RAG after considering image and text inputs.")
              self.logger.error(f"[ReqID: {request_id}] No effective query available for RAG after considering image and text inputs.")
              final_result["error"] = "; ".join(error_accumulator) or "Could not determine a query from the provided input."
              self._log_usage(request_id, chatbot_id, client_id, "[No Effective Query]", None, [], time.time() - pipeline_overall_start_time, final_result["error"], 400, {})
@@ -1075,7 +1075,7 @@ Knowledge Adherence Level: {knowledge_adherence_level}
         and then using that query to execute the full RAG pipeline.
         """
         # Step 1: Generate a descriptive query from the image and optional text.
-        image_analysis_prompt = "Analyze the provided image and generate a very short, descriptive query (3-5 words) based on its content. If text is also provided, use it to refine the focus of the query."
+        image_analysis_prompt = "Analyze the provided image and generate a very short  , descriptive query less 3 consice sentence  based on its content. If text is also provided, use it to refine the focus of the query. this is critical you need to respond in the exact same language as the content of the image ,no matter if its a text or other diagram or anything  "
         if query:
             image_analysis_prompt += f"\n\nUser's accompanying text: {query}"
 

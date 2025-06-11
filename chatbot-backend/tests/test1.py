@@ -208,6 +208,206 @@ QUESTIONS_ANSWERS = [
     {
         "question": "What specific actions by John and Jennie does the narrator observe that lead her to believe they are also being secretly affected by the wallpaper?",
         "expected_answer": "She has caught John looking at the paper multiple times, and she caught Jennie with her hand on the paper once."
+    },
+    {
+        "question": "What was the narrator's opinion on the abrogation of the office of Master in Chancery?",
+        "expected_answer": "He considered it a \"premature act,\" as he had counted on a life-lease of its profits."
+    },
+    {
+        "question": "Describe the contrasting views from the windows at either end of the narrator's chambers before Bartleby's arrival.",
+        "expected_answer": "One end looked upon a tame, white interior sky-light shaft; the other offered an unobstructed view of a lofty, dark brick wall very close to the windows."
+    },
+    {
+        "question": "What was Nippers' demeanor like in the morning versus the afternoon, according to the narrator?",
+        "expected_answer": "In the morning, Nippers was irritable and nervous (due to indigestion); in the afternoon, he was comparatively mild."
+    },
+    {
+        "question": "What was the \"good natural arrangement\" concerning the alternating fits of Turkey and Nippers?",
+        "expected_answer": "Their fits relieved each other like guards; when Nippers' irritability was on, Turkey's was off, and vice versa, so the narrator never had to deal with both eccentricities at once."
+    },
+    {
+        "question": "What specific item did Turkey once use as a seal for a mortgage in a moment of \"fiery afternoon blunder\"?",
+        "expected_answer": "A moistened ginger-cake."
+    },
+    {
+        "question": "How did the narrator initially try to accommodate Bartleby's presence while still maintaining some privacy for himself?",
+        "expected_answer": "He assigned Bartleby a corner on his side of the folding-doors and procured a high green folding screen to isolate Bartleby from sight but not from voice."
+    },
+    {
+        "question": "What was the indispensable part of a scrivener's business that involved collaboration, which Bartleby first refused to participate in with the narrator?",
+        "expected_answer": "Verifying the accuracy of a copy word by word, with one reading from the copy and the other holding the original."
+    },
+    {
+        "question": "When Bartleby first refused to examine his own completed copies, what was Turkey's immediate, vocally expressed reaction when the narrator sought his opinion?",
+        "expected_answer": "He angrily roared a threat to step behind Bartleby's screen and black his eyes."
+    },
+    {
+        "question": "What was the narrator's initial charitable interpretation of Bartleby's passive resistance and eccentricities?",
+        "expected_answer": "He thought Bartleby meant no mischief or insolence, that his eccentricities were involuntary, and that he might starve if turned away."
+    },
+    {
+        "question": "What did the narrator discover inside Bartleby's desk when he finally decided to look within it?",
+        "expected_answer": "An old bandanna handkerchief, heavy and knotted, which contained a savings' bank."
+    },
+    {
+        "question": "What prudential feeling began to replace the narrator's initial melancholy and pity for Bartleby as he reflected on Bartleby's forlornness and home in the office?",
+        "expected_answer": "His melancholy merged into fear, and his pity into repulsion, stemming from a hopelessness of remedying Bartleby's \"incurable disorder.\""
+    },
+    {
+        "question": "When the narrator tried to get Bartleby to reveal his history, what was Bartleby's consistent response to questions about himself?",
+        "expected_answer": "\"I would prefer not to.\""
+    },
+    {
+        "question": "What suggestion did Turkey make, believing it would help \"mend\" Bartleby and enable him to assist in examining papers?",
+        "expected_answer": "He suggested that if Bartleby would prefer to take a quart of good ale every day, it would help him."
+    },
+    {
+        "question": "When Bartleby stated he had \"decided upon doing no more writing,\" what physical sign did the narrator perceive in Bartleby's eyes?",
+        "expected_answer": "His eyes looked dull and glazed."
+    },
+    {
+        "question": "In reflecting on Bartleby's profound isolation and nature before the narrator decided to give him formal notice to leave, what striking metaphor did the narrator use to describe Bartleby?",
+        "expected_answer": "He described Bartleby as \"A bit of wreck in the mid Atlantic.\""
+    },
+    {
+        "question": "When the narrator finally \"assumed\" Bartleby's departure and left money for him, what instructions did he leave regarding the key?",
+        "expected_answer": "He asked Bartleby to lock the door and slip the key underneath the mat."
+    },
+    {
+        "question": "After moving offices, the narrator was informed Bartleby was \"haunting the building generally.\" What specific places was Bartleby reported to be occupying?",
+        "expected_answer": "Sitting upon the banisters of the stairs by day and sleeping in the entry by night."
+    },
+    {
+        "question": "During their final confrontation at the old office building (in the lawyer's room), what reason did Bartleby give for not wanting a clerkship in a dry-goods store?",
+        "expected_answer": "\"There is too much confinement about that.\""
+    },
+    {
+        "question": "What was the narrator's final, desperate offer to Bartleby to try and get him to leave the old premises?",
+        "expected_answer": "He offered to take Bartleby home to his own dwelling to stay until a convenient arrangement could be made."
+    },
+    {
+        "question": "Upon seeing Bartleby in the prison yard, what did Bartleby say to the narrator when addressed?",
+        "expected_answer": "\"I know you, and I want nothing to say to you.\""
+    },
+    {
+        "question": "What was the grub-man's initial assumption about Bartleby's profession, given his pale and genteel appearance?",
+        "expected_answer": "He thought Bartleby was a gentleman forger."
+    },
+    {
+        "question": "What symbolic description did the narrator murmur to himself when he confirmed Bartleby was dead, signifying his final state?",
+        "expected_answer": "\"With kings and counselors.\""
+    },
+    {
+        "question": "According to the rumor, what was the supposed reason for Bartleby's removal from the Dead Letter Office?",
+        "expected_answer": "A change in the administration."
+    },
+    {
+        "question": "What specific items from \"dead letters\" does the narrator imagine Bartleby might have handled, symbolizing lost hopes and communications?",
+        "expected_answer": "A ring (for a finger now in the grave), a bank-note for charity to someone now dead, pardon for those who died despairing, or good tidings for those who died from unrelieved calamities. (Any one or two examples are fine)."
+    },
+    {
+        "question": "How did the narrator feel about repeating John Jacob Astor's name?",
+        "expected_answer": "He admitted he loved to repeat it, for its rounded and orbicular sound, ringing like bullion."
+    },
+    {
+        "question": "What is John's stated reason for not taking the downstairs room the narrator initially preferred?",
+        "expected_answer": "He said there was only one window, not room for two beds, and no near room for him if he took another."
+    },
+    {
+        "question": "The narrator considers it \"fortunate Mary is so good with the baby.\" What personal reason, stemming from her own condition, does she give that makes Mary's competence particularly relieving for her?",
+        "expected_answer": "It is particularly fortunate for her because she herself cannot be with the baby, as doing so makes her excessively nervous."
+    },
+    {
+        "question": "How does the narrator describe the pattern of the wallpaper when she tries to follow its \"lame, uncertain curves\"?",
+        "expected_answer": "They suddenly commit suicide—plunge off at outrageous angles and destroy themselves in unheard-of contradictions."
+    },
+    {
+        "question": "What previous childhood habit does the narrator mention that allowed her to find \"entertainment and terror\" in blank walls and plain furniture?",
+        "expected_answer": "She used to lie awake as a child and get more entertainment and terror out of blank walls and plain furniture than most children could find in a toy-store."
+    },
+    {
+        "question": "What is Jennie's opinion (which the narrator believes) about what made the narrator sick?",
+        "expected_answer": "The narrator verily believes Jennie thinks it is the writing which made her sick."
+    },
+    {
+        "question": "What \"sub-pattern\" does the narrator notice in the wallpaper that is only visible in certain lights and not very clearly?",
+        "expected_answer": "A strange, provoking, formless sort of figure that seems to sulk behind the front design."
+    },
+    {
+        "question": "What is John's reaction when the narrator tries to have an \"earnest reasonable talk\" about visiting Cousin Henry and Julia, and she starts crying?",
+        "expected_answer": "He gathered her up in his arms, carried her upstairs, laid her on the bed, and read to her until it tired her head, telling her she was his darling and must take care of herself for his sake."
+    },
+    {
+        "question": "Why does the narrator eventually feel it's \"lucky\" that John kept her in the nursery with the \"horrid wallpaper\"?",
+        "expected_answer": "Because she can stand it so much easier than a baby would have, and she wouldn't have a child of hers live in such a room."
+    },
+    {
+        "question": "How does the narrator describe the movement of the woman behind the pattern when the moonlight shines on the wallpaper?",
+        "expected_answer": "The faint figure behind seemed to shake the pattern, as if she wanted to get out."
+    },
+    {
+        "question": "When the narrator tells John she isn't gaining and wishes to leave, what reasons does John give for not being able to leave before their lease is up in three weeks?",
+        "expected_answer": "The repairs are not done at home, and he cannot possibly leave town just now (due to his cases)."
+    },
+    {
+        "question": "What does the narrator perceive the outside pattern of the wallpaper to become at night, especially by moonlight?",
+        "expected_answer": "It becomes bars."
+    },
+    {
+        "question": "What is the \"very bad habit\" the narrator believes John started by making her lie down for an hour after each meal?",
+        "expected_answer": "It cultivates deceit, because she doesn't sleep but doesn't tell them she's awake."
+    },
+    {
+        "question": "What did Jennie say when the narrator caught her with her hand on the wallpaper?",
+        "expected_answer": "She said the paper stained everything it touched, that she had found yellow smooches on their clothes, and wished they would be more careful (after initially looking angry as if caught stealing)."
+    },
+    {
+        "question": "Why does the narrator say she doesn't want to leave the house \"until I have found it out\"?",
+        "expected_answer": "She wants to find out about the woman/pattern in the wallpaper."
+    },
+    {
+        "question": "What physical evidence does the narrator notice on the wall near the mopboard that she later connects with her own actions?",
+        "expected_answer": "A long, straight, even smooch running around the room, as if rubbed over and over (where her shoulder fits as she creeps)."
+    },
+    {
+        "question": "Why does the narrator say she always locks the door when she \"creeps by daylight\"?",
+        "expected_answer": "Because it must be very humiliating to be caught creeping by daylight, and she can't do it at night because John would suspect something."
+    },
+    {
+        "question": "What does the narrator intend to do, \"little by little,\" regarding the wallpaper patterns?",
+        "expected_answer": "She means to try to get the top pattern off from the under one."
+    },
+    {
+        "question": "On the last day, when Jennie sees the peeled wallpaper, what reason does the narrator merrily give for doing it?",
+        "expected_answer": "She said she did it out of pure spite at the vicious thing."
+    },
+    {
+        "question": "Why does the narrator say she cannot reach far with the rope she has to tie the woman from the wallpaper?",
+        "expected_answer": "Because she has nothing to stand on, and the bed will not move."
+    },
+    {
+        "question": "When the narrator is creeping on the final day, what is her stated reason for not wanting to go outside?",
+        "expected_answer": "Because outside you have to creep on the ground, and everything is green instead of yellow, whereas in the room she can creep smoothly."
+    },
+    {
+        "question": "When John is at the locked door calling and pounding, what does the narrator tell him about the key's location?",
+        "expected_answer": "She tells him, \"the key is down by the front steps, under a plantain leaf!\""
+    },
+    {
+        "question": "What \"artistic sin\" does the narrator claim the sprawling flamboyant patterns of the wallpaper commit?",
+        "expected_answer": "She says they commit \"every artistic sin.\""
+    },
+    {
+        "question": "What item of furniture in the nursery looks as if it had \"been through the wars\"?",
+        "expected_answer": "The great heavy bed, which is all they found in the room."
+    },
+    {
+        "question": "What is John's response when the narrator, one moonlight evening, says she feels \"something strange about the house\"?",
+        "expected_answer": "He said what she felt was a draught, and shut the window."
+    },
+    {
+        "question": "What does the narrator describe as the \"one comfort\" regarding the baby?",
+        "expected_answer": "The baby is well and happy and does not have to occupy the nursery with the horrid wallpaper\""
     }
 ]
 
