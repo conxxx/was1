@@ -568,7 +568,7 @@ class RagService:
         return final_chunk_ids, None
 
     # --- construct_prompt METHOD MODIFIED ---
-    def construct_prompt(self, retrieved_texts: list, query: str, client_id: str, base_prompt: str = None, chat_history: list = None, knowledge_adherence_level: str = 'strict', is_image_only: bool = False):
+    def construct_prompt(self, retrieved_texts: list, query: str, client_id: str, base_prompt: str = None, chat_history: list = None, knowledge_adherence_level: str = 'strict', is_image_only: bool = False, query_language: str = 'en'):
         """Constructs the final prompt for the LLM."""
         # Removed query_language parameter as it's no longer used here for the prompt instruction
         if not self._ensure_clients_initialized(): return ""
@@ -628,6 +628,7 @@ Try to understand the user's intent, even if their wording isn't exact,PLEASE DO
 Use the given context to provide a relevant and accurate answer. While the context is your primary source, synthesize the information *from the context sections* to answer the user's question naturally.
 If the context does not contain information relevant to the user's query intent, state that clearly. Do not invent answers if the information is not present.
 Avoid phrases like "Based on the context provided..." unless it's necessary to clarify the source of information.
+You must respond in {query_language}.
 
 Knowledge Adherence Level: {knowledge_adherence_level}
 - strict: Answer primarily from the context. If the answer isn't there or cannot be reasonably inferred, say so. Avoid external knowledge.
@@ -1008,7 +1009,8 @@ Knowledge Adherence Level: {knowledge_adherence_level}
             base_prompt=base_prompt_override,
             chat_history=chat_history,
             knowledge_adherence_level=knowledge_adherence,
-            is_image_only=is_image_only_query # This flag indicates if context should be skipped
+            is_image_only=is_image_only_query, # This flag indicates if context should be skipped
+            query_language=query_language
         )
         self.logger.info(f"[ReqID: {request_id}] PERF: Prompt Construction took {time.time() - step_start_time:.4f} seconds.")
 

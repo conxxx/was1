@@ -536,7 +536,7 @@ export function updateInputDisabledState() {
     if (sendButton) sendButton.style.display = showTextInput ? 'flex' : 'none';
     if (micButton) micButton.style.display = showVoiceInput ? 'flex' : 'none';
     // Show language selector if EITHER voice OR summarization is enabled AND consent given
-    if (languageSelector) languageSelector.style.display = (showVoiceInput || showSummarize) ? 'flex' : 'none';
+    if (languageSelector) languageSelector.style.display = showVoiceInput || showSummarize || showTextInput ? 'flex' : 'none';
     if (fileUploadButton) fileUploadButton.style.display = showFileUpload ? 'flex' : 'none';
     if (summarizeButton) summarizeButton.style.display = showSummarize ? 'flex' : 'none';
     if (inputArea) inputArea.style.display = showInputArea ? 'flex' : 'none';
@@ -843,6 +843,11 @@ export function applyConfigSettings(configToApply, chatbotId, savedPosition = nu
         }
         state.setSelectedLanguage(initialLang); // Update state
         languageSelector.value = initialLang; // Update UI
+    }
+    if (languageSelector) {
+        let initialLang = configToApply.text_language || 'en';
+        state.setSelectedLanguage(initialLang);
+        languageSelector.value = initialLang;
     }
 
     if (clearHistoryButton) {

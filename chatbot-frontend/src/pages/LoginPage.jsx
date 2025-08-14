@@ -93,29 +93,7 @@ function LoginPage() {
       </div>
 
       {/* Right Column (Image Area) */}
-      <div className="relative hidden h-screen md:flex md:flex-col md:items-center md:justify-center lg:w-[49vw] 2xl:w-[44vw]"> {/* Fixed width column, hidden on small screens, added flex centering for overlay */}
-        <div
-          className="absolute inset-0 bg-cover bg-center lg:rounded-bl-[120px] xl:rounded-bl-[200px]"
-          style={{ backgroundImage: `url(${authImg})` }}
-        />
-        {/* Overlay Content */}
-        <div className="relative z-10 flex flex-col items-center text-white">
-          {/* Placeholder for Logo */}
-          <div className="mb-4 h-16 w-16 rounded-full bg-white flex items-center justify-center text-navy-700 font-bold text-xl">
-            HL {/* Logo Placeholder */}
-          </div>
-          <h2 className="mb-4 text-3xl font-bold">Horizon UI</h2>
-          <a
-            href="https://horizon-ui.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="rounded-lg border border-white px-6 py-3 text-sm font-medium transition duration-200 hover:bg-white hover:text-navy-700"
-          >
-            Learn more about Horizon UI on horizon-ui.com
-          </a>
-        </div>
-      </div>
-
+      
     </div>
   );
 }

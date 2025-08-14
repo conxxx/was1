@@ -1,0 +1,1057 @@
+File out\linecounter.json has 160150 lines
+File out\linecounter.txt has 24775 lines
+File docs\.roomodes has 12 lines
+File docs\chatbot_deletion_plan.md has 113 lines
+File docs\embedding-widget.md has 46 lines
+File docs\image_analysis_plan.md has 310 lines
+File docs\implementation_code_samples.py has 254 lines
+File docs\MCP Integration Architecture for RAG-based Chatbot Platform.md has 186 lines
+File docs\MCP Integration Implementation Plan.md has 167 lines
+File docs\multilingual_rag_plan.md has 187 lines
+File docs\revised_project_summary.md has 140 lines
+File docs\summarization_feature_plan.md has 123 lines
+File docs\widget_enhancements_plan.md has 109 lines
+File docs\widget_stop_recording_plan.md has 114 lines
+File doc\chatbot_source_data_deletion_plan.md has 203 lines
+File chatbot-widget\src\api.js has 287 lines
+File chatbot-widget\src\config.js has 67 lines
+File chatbot-widget\src\draggable.js has 2 lines
+File chatbot-widget\src\handlers.js has 984 lines
+File chatbot-widget\src\index.js has 155 lines
+File chatbot-widget\src\state.js has 175 lines
+File chatbot-widget\src\ui.js has 886 lines
+File chatbot-widget\src\utils.js has 12 lines
+File chatbot-widget\src\vad-processor.js has 90 lines
+File chatbot-widget\src\voice.js has 816 lines
+File chatbot-widget\src\widget.css has 359 lines
+File chatbot-widget\pages\architecture.html has 140 lines
+File chatbot-widget\pages\backend-api.html has 338 lines
+File chatbot-widget\pages\crawling-indexing.html has 174 lines
+File chatbot-widget\pages\dashboard.html has 267 lines
+File chatbot-widget\pages\widget.html has 284 lines
+File chatbot-widget\images\architecture-diagram.jpg has 833 lines
+File chatbot-widget\images\crawling.jpg has 481 lines
+File chatbot-widget\images\website_owner.jpg has 1056 lines
+File chatbot-widget\dist\vad-processor.js has 1 lines
+File chatbot-widget\dist\widget.js has 2 lines
+File chatbot-widget\dist\widget.js.map has 1 lines
+File chatbot-widget\.gitignore has 45 lines
+File chatbot-widget\active-model-indicator-visibility.md has 28 lines
+Folder chatbot-widget\dist has 4 lines
+File chatbot-widget\favicon.png has 1 lines
+Folder chatbot-widget\images has 2370 lines
+File chatbot-widget\index.html has 129 lines
+Folder chatbot-widget\node_modules has 0 lines
+File chatbot-widget\package-lock.json has 1887 lines
+File chatbot-widget\package.json has 29 lines
+Folder chatbot-widget\pages has 1203 lines
+File chatbot-widget\speech-to-text.md has 118 lines
+Folder chatbot-widget\src has 3833 lines
+File chatbot-widget\webpack.config.js has 49 lines
+File chatbot-widget\widget.js has 1 lines
+File chatbot-frontend\src\services\api.js has 953 lines
+File chatbot-frontend\src\pages\AiafLandingPage.jsx has 30 lines
+File chatbot-frontend\src\pages\ChatPage.jsx has 1584 lines
+File chatbot-frontend\src\pages\CreateChatbotPage.jsx has 625 lines
+File chatbot-frontend\src\pages\DashboardPage.jsx has 217 lines
+File chatbot-frontend\src\pages\EditChatbotPage.jsx has 443 lines
+File chatbot-frontend\src\pages\LoginPage.jsx has 124 lines
+File chatbot-frontend\src\layouts\AdminLayout.jsx has 78 lines
+File chatbot-frontend\src\components\sidebar\Sidebar.jsx has 98 lines
+File chatbot-frontend\src\components\navbar\Navbar.jsx has 169 lines
+File chatbot-frontend\src\components\fields\InputField.jsx has 40 lines
+File chatbot-frontend\src\components\dropdown\Dropdown.jsx has 44 lines
+File chatbot-frontend\src\components\card\Card.jsx has 21 lines
+File chatbot-frontend\src\components\card\ChatbotCard.jsx has 137 lines
+File chatbot-frontend\src\components\AddFileForm.jsx has 139 lines
+File chatbot-frontend\src\components\AddTextForm.jsx has 56 lines
+File chatbot-frontend\src\components\AddUrlForm.jsx has 60 lines
+File chatbot-frontend\src\components\AiafExistsSection.jsx has 53 lines
+File chatbot-frontend\src\components\AiafFeatureCard.jsx has 54 lines
+File chatbot-frontend\src\components\AiafMonetizeSection.jsx has 48 lines
+File chatbot-frontend\src\components\AiafNavbar.jsx has 52 lines
+File chatbot-frontend\src\components\AiafVideoSection.jsx has 66 lines
+Folder chatbot-frontend\src\components\card has 158 lines
+File chatbot-frontend\src\components\DataManagementView.jsx has 125 lines
+File chatbot-frontend\src\components\DataSourceList.jsx has 119 lines
+Folder chatbot-frontend\src\components\dropdown has 44 lines
+Folder chatbot-frontend\src\components\fields has 40 lines
+File chatbot-frontend\src\components\InteractiveColorPicker.jsx has 45 lines
+File chatbot-frontend\src\components\InteractiveToggle.jsx has 40 lines
+Folder chatbot-frontend\src\components\navbar has 169 lines
+Folder chatbot-frontend\src\components\sidebar has 98 lines
+File chatbot-frontend\src\components\UrlDataSourceManager.jsx has 93 lines
+File chatbot-frontend\src\components\WidgetCustomizationSettings.jsx has 594 lines
+File chatbot-frontend\src\assets\img\auth\auth.png has 1023 lines
+Folder chatbot-frontend\src\assets\img\auth has 1023 lines
+File chatbot-frontend\src\assets\aiaf\.gitkeep has 2 lines
+File chatbot-frontend\src\assets\aiaf\bgc.jpeg has 64 lines
+File chatbot-frontend\src\assets\aiaf\logo-video.mp4 has 602 lines
+File chatbot-frontend\src\assets\aiaf\robot-video.mp4 has 7062 lines
+File chatbot-frontend\src\assets\aiaf\robot2-video.mp4 has 5057 lines
+File chatbot-frontend\src\assets\aiaf\robot3-video.mp4 has 18050 lines
+File chatbot-frontend\src\assets\aiaf\robot3-video2.mp4 has 14460 lines
+File chatbot-frontend\src\assets\aiaf\Untitled video - Made with Clipchamp.mp4 has 25274 lines
+Folder chatbot-frontend\src\assets\aiaf has 70571 lines
+Folder chatbot-frontend\src\assets\img has 1023 lines
+File chatbot-frontend\src\assets\react.svg has 1 lines
+File chatbot-frontend\src\App.css has 36 lines
+File chatbot-frontend\src\App.jsx has 62 lines
+Folder chatbot-frontend\src\assets has 71595 lines
+Folder chatbot-frontend\src\components has 2053 lines
+File chatbot-frontend\src\index.css has 141 lines
+Folder chatbot-frontend\src\layouts has 78 lines
+File chatbot-frontend\src\main.jsx has 16 lines
+Folder chatbot-frontend\src\pages has 3023 lines
+Folder chatbot-frontend\src\services has 953 lines
+File chatbot-frontend\src\vad-processor.js has 81 lines
+File chatbot-frontend\public\vite.svg has 1 lines
+File chatbot-frontend\dist\assets\auth-MbP2DP9E.png has 1023 lines
+File chatbot-frontend\dist\assets\bgc-DvJ4zWVV.jpeg has 64 lines
+File chatbot-frontend\dist\assets\index-CjORBxhr.css has 2 lines
+File chatbot-frontend\dist\assets\index-nU27vZH9.js has 115 lines
+File chatbot-frontend\dist\assets\logo-video-TEJB2u7X.mp4 has 602 lines
+File chatbot-frontend\dist\assets\robot-video-BL5PM6Pw.mp4 has 7062 lines
+File chatbot-frontend\dist\assets\robot2-video-1WULBrfa.mp4 has 5057 lines
+File chatbot-frontend\dist\assets\robot3-video-BDfm8dVb.mp4 has 18050 lines
+Folder chatbot-frontend\dist\assets has 31975 lines
+File chatbot-frontend\dist\index.html has 15 lines
+File chatbot-frontend\dist\vite.svg has 1 lines
+File chatbot-frontend\.gitignore has 46 lines
+Folder chatbot-frontend\dist has 31991 lines
+File chatbot-frontend\eslint.config.js has 34 lines
+File chatbot-frontend\index.html has 14 lines
+Folder chatbot-frontend\node_modules has 0 lines
+File chatbot-frontend\package-lock.json has 6236 lines
+File chatbot-frontend\package.json has 45 lines
+File chatbot-frontend\postcss.config.cjs has 8 lines
+Folder chatbot-frontend\public has 1 lines
+File chatbot-frontend\README.md has 13 lines
+Folder chatbot-frontend\src has 78038 lines
+File chatbot-frontend\tailwind.config.js has 336 lines
+File chatbot-frontend\vite.config.js has 23 lines
+File chatbot-backend\__pycache__\celery_worker.cpython-312.pyc has 13 lines
+File chatbot-backend\__pycache__\cleanup_tasks.cpython-312.pyc has 24 lines
+File chatbot-backend\__pycache__\config.cpython-312.pyc has 28 lines
+File chatbot-backend\__pycache__\run.cpython-312.pyc has 9 lines
+File chatbot-backend\uploads\logos\current_logo.txt has 1 lines
+File chatbot-backend\uploads\logos\png-clipart-logo-small-business-handshake-marketing-joint-text-hand-thumbnail.png has 50 lines
+File chatbot-backend\uploads\04ff2507-e6f5-4658-8690-e3d9accc3525_New_Text_Document_2.txt has 25 lines
+File chatbot-backend\uploads\0e1aa6e4-444d-441e-ad47-789fdcfef3b0_New_Text_Document_2.txt has 25 lines
+File chatbot-backend\uploads\2eece912-bb13-44c8-96bd-dfce96f8072b_niah_temp_haystack.txt has 3165 lines
+File chatbot-backend\uploads\41d608a2-c95b-4427-9332-cf27cc6dfd1d_niah_temp_haystack.txt has 3165 lines
+File chatbot-backend\uploads\47a5a321-8563-4363-b9c1-0d2919607861_Price_Movement_Indicator.txt has 13 lines
+File chatbot-backend\uploads\49622b3c-79f3-49a5-a1c6-521d3cda7a6d_niah_temp_haystack.txt has 3165 lines
+File chatbot-backend\uploads\4976ca1f-410c-457e-b951-49cb45af858a_caht.txt has 46 lines
+File chatbot-backend\uploads\4d269abc-b9cc-450c-ab2d-8583c034de8d_P9.pdf has 369 lines
+File chatbot-backend\uploads\51f03ba7-9d16-4fb4-bf5d-4ce7416d937e_Price_Movement_Indicator.txt has 13 lines
+File chatbot-backend\uploads\5bf31ea8-47a0-4885-b291-cf15820b2012_Document1.docx has 506 lines
+File chatbot-backend\uploads\7b220719-3ad3-45a9-a235-5ac32e6975ca_New_Text_Document_2.txt has 25 lines
+File chatbot-backend\uploads\80f0e310-1e94-4197-83ad-f227b1a8a337_P9.pdf has 369 lines
+File chatbot-backend\uploads\8b630656-b79e-43db-94fa-af4779cebb7c_Price_Movement_Indicator.txt has 13 lines
+File chatbot-backend\uploads\8caa3645-bd21-4a47-bb5f-03f54ad5d4ee_caht.txt has 10 lines
+File chatbot-backend\uploads\920536b3-d74b-4139-a477-eff8f02de486_combined.txt has 1943 lines
+File chatbot-backend\uploads\96eafa5d-5eb8-4646-b94f-f14b545175f9_caht.txt has 10 lines
+File chatbot-backend\uploads\99df77ec-dbc7-49b1-9cf6-3f88de041566_New_Text_Document.txt has 354 lines
+File chatbot-backend\uploads\9bd11976-65de-4175-bd5d-0c18a1a4c84d_Price_Movement_Indicator.txt has 13 lines
+File chatbot-backend\uploads\b275d199-1092-4467-b18d-d7d539e4fc6f_caht.txt has 10 lines
+File chatbot-backend\uploads\c9f2a85e-2f38-4b10-9565-d196147ba6ba_caht.txt has 10 lines
+File chatbot-backend\uploads\d52eab87-a7cd-44e3-8b2c-5a71871d4bf7_caht.txt has 10 lines
+File chatbot-backend\uploads\d5f2f274-6879-47a3-bd31-f467bdbeb24d_Document1.docx has 506 lines
+File chatbot-backend\uploads\df0014c1-cab0-40dd-8164-f24d16990fd0_combined.txt has 3168 lines
+File chatbot-backend\uploads\dfcd1064-3a5e-4865-b720-abc17f1bc1a9_Rules_for_converting_an_ER_diagram_to_tables.docx has 5409 lines
+File chatbot-backend\uploads\ebdb451b-2390-4765-a32e-249a38bb8502_caht.txt has 10 lines
+File chatbot-backend\uploads\fdea5ce2-d694-46fb-b0e2-241340007009_caht.txt has 10 lines
+Folder chatbot-backend\uploads\logos has 51 lines
+File chatbot-backend\uploads\niah_temp_haystack.txt has 3165 lines
+File chatbot-backend\tests\__pycache__\test_ingestion_task.cpython-312.pyc has 39 lines
+File chatbot-backend\tests\benchmark_rag.py has 326 lines
+File chatbot-backend\tests\rag_benchmark_results.json has 14 lines
+File chatbot-backend\tests\rag_failed_questions_results.json has 474 lines
+File chatbot-backend\tests\test1.py has 527 lines
+File chatbot-backend\tests\test_config.py has 60 lines
+File chatbot-backend\tests\test_failed.py has 158 lines
+File chatbot-backend\tests\test_ingestion_task.py has 179 lines
+File chatbot-backend\tests\test_niah.py has 383 lines
+File chatbot-backend\tests\test_rag_service.py has 140 lines
+Folder chatbot-backend\tests\__pycache__ has 39 lines
+File chatbot-backend\app\__pycache__\models.cpython-312.pyc has 171 lines
+File chatbot-backend\app\__pycache__\sse_utils.cpython-312.pyc has 14 lines
+File chatbot-backend\app\__pycache__\utils.cpython-312.pyc has 7 lines
+File chatbot-backend\app\__pycache__\__init__.cpython-312.pyc has 44 lines
+File chatbot-backend\app\uploads\audio\10_0d4af836-7418-426c-aad6-4a75447d87e8_b3ae928c-2946-4146-bed7-fb29d5e77e6a.mp3 has 889 lines
+File chatbot-backend\app\uploads\audio\10_148e888e-0f3a-4ba2-b2c8-db532639d266_49088d9a-ef6c-4464-987f-73ad7c7c2a0f.mp3 has 140 lines
+File chatbot-backend\app\uploads\audio\10_166b24f3-7eeb-4f67-a340-25138cad1a2a_0d9ca1f2-d29c-4669-9f3b-255f59d30ac6.mp3 has 2809 lines
+File chatbot-backend\app\uploads\audio\10_1f147771-6551-4ef8-81bc-f1657b016cab_08731a5d-328c-461e-add0-fc21e27c4a0c.mp3 has 88 lines
+File chatbot-backend\app\uploads\audio\10_2a1a4f86-0283-4706-8a51-9022376801b0_d0d3dbf6-8509-440b-9a41-296d7f578bfa.mp3 has 859 lines
+File chatbot-backend\app\uploads\audio\10_30ac2f69-7023-4049-82c7-d86b1b2cfbe4_02d4e57d-f121-4ebf-bc96-d7cf3ad691c5.mp3 has 172 lines
+File chatbot-backend\app\uploads\audio\10_30ac2f69-7023-4049-82c7-d86b1b2cfbe4_f7f5ce96-14ac-484a-a91f-1ea7430ec6c4.mp3 has 192 lines
+File chatbot-backend\app\uploads\audio\10_30ac2f69-7023-4049-82c7-d86b1b2cfbe4_fe52ffa7-eb02-428e-9ef5-f4027d813243.mp3 has 115 lines
+File chatbot-backend\app\uploads\audio\10_500a3394-3ac1-4583-bf8b-e0a2cc4d0ada_230ab887-1252-4f07-9082-2db4adf9ca01.mp3 has 180 lines
+File chatbot-backend\app\uploads\audio\10_500a3394-3ac1-4583-bf8b-e0a2cc4d0ada_444794c4-9aec-4b07-ac57-a984be6fc27e.mp3 has 164 lines
+File chatbot-backend\app\uploads\audio\10_5dfef4c9-5633-4f4f-99ae-184aea8ad34f_26e77ff9-ad83-46d4-8896-e68a6eb22a66.mp3 has 868 lines
+File chatbot-backend\app\uploads\audio\10_649e4451-727d-4b7f-a1f2-88a40cb7d5eb_cb91e836-a4d0-473e-8df9-84ea0c43961f.mp3 has 114 lines
+File chatbot-backend\app\uploads\audio\10_649e4451-727d-4b7f-a1f2-88a40cb7d5eb_de43f27f-5a16-4f23-8d9e-dd52dc9e2f5f.mp3 has 464 lines
+File chatbot-backend\app\uploads\audio\10_732099b5-50c0-4cb9-8035-a0351d468771_29ef4df6-edc3-4405-945d-1bccecbe05f5.mp3 has 1764 lines
+File chatbot-backend\app\uploads\audio\10_8cd810d1-06d5-4154-809a-dc110cf4ade2_3edb2dc5-c823-4351-9d51-a345e06b29c9.mp3 has 156 lines
+File chatbot-backend\app\uploads\audio\10_8cd810d1-06d5-4154-809a-dc110cf4ade2_789e024c-1732-40d0-862a-0c8eaa0e6a4c.mp3 has 218 lines
+File chatbot-backend\app\uploads\audio\10_8cd810d1-06d5-4154-809a-dc110cf4ade2_cc97e47e-91ba-43e8-870b-c9cf8f0dff14.mp3 has 218 lines
+File chatbot-backend\app\uploads\audio\10_8cd810d1-06d5-4154-809a-dc110cf4ade2_f9f5a8be-012b-44e5-b3b4-8e1adc5dd3b5.mp3 has 218 lines
+File chatbot-backend\app\uploads\audio\10_8ddc3930-66b0-4916-aa32-e4beadab2326_865f5b48-d352-485a-95c4-e3d4e07c267f.mp3 has 164 lines
+File chatbot-backend\app\uploads\audio\10_8ebf8126-aa5d-4100-b564-0b5c468d964c_c5debed4-25bc-4172-b44e-5b9f9a9d9c27.mp3 has 165 lines
+File chatbot-backend\app\uploads\audio\10_989e8c4b-1b88-493d-b7d0-af115a0f77de_b463b423-b94f-4bfd-a44b-a8f982a7dc91.mp3 has 186 lines
+File chatbot-backend\app\uploads\audio\10_9f3c2a01-02c6-4ca8-9b5b-ae14d07badaa_77149de0-d79e-4767-bca8-a479791f2efe.mp3 has 137 lines
+File chatbot-backend\app\uploads\audio\10_9f3c2a01-02c6-4ca8-9b5b-ae14d07badaa_96742983-72b0-4a83-a2b9-58b6aad4275f.mp3 has 137 lines
+File chatbot-backend\app\uploads\audio\10_a5c52879-334f-4593-9fb2-371d48ffea90_0d224a2c-efa4-4cd4-94d5-e91cdde03b55.mp3 has 3412 lines
+File chatbot-backend\app\uploads\audio\10_a631f9a3-991a-4709-b068-56afffa88280_a00ddb90-dd1f-4549-9cf1-a17a2beaec10.mp3 has 749 lines
+File chatbot-backend\app\uploads\audio\10_a631f9a3-991a-4709-b068-56afffa88280_d0fdcf9d-4936-4bda-b7e9-4ab2052d2362.mp3 has 248 lines
+File chatbot-backend\app\uploads\audio\10_b60c4caa-986d-4fe9-99f2-97d2e75386e0_f11db5a3-806d-4ade-8374-7c13af2401c6.mp3 has 114 lines
+File chatbot-backend\app\uploads\audio\10_c9667fa7-e509-4619-af23-235d5bcb1cda_3aec7406-a75f-451c-aa24-d049191453ed.mp3 has 203 lines
+File chatbot-backend\app\uploads\audio\10_c9667fa7-e509-4619-af23-235d5bcb1cda_7e15fbff-c865-4a53-9b6f-ec2f09c9272c.mp3 has 203 lines
+File chatbot-backend\app\uploads\audio\10_ddc22d39-b7b1-4fed-b072-c77b8a690d7e_53069478-b3a1-4fd1-9190-8009e0a06420.mp3 has 203 lines
+File chatbot-backend\app\uploads\audio\10_f0c54b2e-bf34-4bf8-b940-4dfcbbd517e0_6f4063f4-6817-4132-9795-90c701577c18.mp3 has 203 lines
+File chatbot-backend\app\uploads\audio\10_f61264ff-29b1-45bd-8101-a8a3d0363327_95b7613d-a5c0-4c5d-94b1-1d3a23fc2c93.mp3 has 221 lines
+File chatbot-backend\app\uploads\audio\10_f61264ff-29b1-45bd-8101-a8a3d0363327_be9dfdfe-276e-4ad2-87ca-92a92ba3d6d1.mp3 has 241 lines
+File chatbot-backend\app\uploads\audio\10_f61264ff-29b1-45bd-8101-a8a3d0363327_bee478db-cdc0-4502-8891-85eff8895c39.mp3 has 278 lines
+File chatbot-backend\app\uploads\audio\10_f61264ff-29b1-45bd-8101-a8a3d0363327_e2306759-06ff-43ac-9629-c7b375b39344.mp3 has 289 lines
+File chatbot-backend\app\uploads\audio\10_f61264ff-29b1-45bd-8101-a8a3d0363327_f8ca260e-68e6-4e9f-ab8e-f1764c9e3a9f.mp3 has 232 lines
+File chatbot-backend\app\uploads\audio\10_f6c1dd79-9820-430a-a476-9ef5ed80ab77_96b122ee-296a-4ec1-af83-cd9545cef5a4.mp3 has 203 lines
+File chatbot-backend\app\uploads\audio\10_fa923587-a486-48bf-92c1-d609d1eb4353_cb5ac253-801e-48be-81a8-d785a29b00cd.mp3 has 114 lines
+File chatbot-backend\app\uploads\audio\11_317bf87b-a34e-491a-8202-254651c11a4f_e8e469e9-2881-4e5c-9376-19b384a8f118.mp3 has 294 lines
+File chatbot-backend\app\uploads\audio\11_317bf87b-a34e-491a-8202-254651c11a4f_f519359c-28f3-4637-874d-f66bb0335b00.mp3 has 145 lines
+File chatbot-backend\app\uploads\audio\11_354b4f0d-4116-4486-ab57-3d38340e6cb4_6f21947e-e5d6-4a94-b661-4c7e04c964fa.mp3 has 316 lines
+File chatbot-backend\app\uploads\audio\11_8fc62dc2-3fca-4ab2-8937-bba46fa50326_3e857b4d-6b2b-4213-90de-f696ad9f5eba.mp3 has 900 lines
+File chatbot-backend\app\uploads\audio\11_b3211897-0118-48f5-b3f0-9e649224abae_7373aeff-a99e-411b-9afa-96670b97685e.mp3 has 546 lines
+File chatbot-backend\app\uploads\audio\11_fe3ce458-cce8-49b3-8400-604440234376_6e44c897-b107-48d5-b619-6defd073b208.mp3 has 837 lines
+File chatbot-backend\app\uploads\audio\12_08b0b8b7-3fd4-4c86-b7d2-8e11f6672236_07064754-7564-4d8e-8dd1-941a1beaea8c.mp3 has 140 lines
+File chatbot-backend\app\uploads\audio\12_08b0b8b7-3fd4-4c86-b7d2-8e11f6672236_2ca45f83-227f-44d6-a08f-059dc8e036e9.mp3 has 1427 lines
+File chatbot-backend\app\uploads\audio\12_08b0b8b7-3fd4-4c86-b7d2-8e11f6672236_a5bc7ff1-032b-4930-a588-e4fd02513180.mp3 has 156 lines
+File chatbot-backend\app\uploads\audio\12_2a6bbcb0-7650-4ca7-bab6-c7302bbd3667_c461e8d6-e5c9-4551-9c5f-f384fdab4a58.mp3 has 140 lines
+File chatbot-backend\app\uploads\audio\12_2daba598-77c8-4cd2-a494-0e794fa4557d_3e36cbe9-bc4e-40b2-9da4-51aeaafe913a.mp3 has 140 lines
+File chatbot-backend\app\uploads\audio\12_2daba598-77c8-4cd2-a494-0e794fa4557d_bd1ff95a-3ecf-4483-8731-64d2d5f99494.mp3 has 208 lines
+File chatbot-backend\app\uploads\audio\12_54b63268-4593-4d27-b270-934d19b2884e_0c779d23-47f1-4d04-bf27-b8f4dbe96ec6.mp3 has 1805 lines
+File chatbot-backend\app\uploads\audio\12_54b63268-4593-4d27-b270-934d19b2884e_1207f873-5758-4c3f-b856-830ff74217e5.mp3 has 173 lines
+File chatbot-backend\app\uploads\audio\12_54b63268-4593-4d27-b270-934d19b2884e_b522b0d2-d50d-4e75-aeae-525220ed6607.mp3 has 200 lines
+File chatbot-backend\app\uploads\audio\12_54b63268-4593-4d27-b270-934d19b2884e_dd64c4fe-bc2b-40df-8c39-8a8347f07343.mp3 has 114 lines
+File chatbot-backend\app\uploads\audio\12_a02f5966-a8a6-4f61-92d2-b5a3594b7fb5_a68f8456-5bc7-47c5-8a95-3ae3b648d52b.mp3 has 140 lines
+File chatbot-backend\app\uploads\audio\65_12277c63-9f9e-4540-9567-933738af3965_43a9ee07-8839-4f37-bfd1-db6c2ff3743d.mp3 has 70 lines
+File chatbot-backend\app\uploads\audio\65_12277c63-9f9e-4540-9567-933738af3965_e8cafd75-09f3-4e89-a3b1-814d13d7f4b0.mp3 has 72 lines
+File chatbot-backend\app\uploads\audio\65_58e0bded-dab4-4504-a8a7-b53e9d5ff386_7d48486d-4f31-4e81-b464-7f9f74157383.mp3 has 120 lines
+File chatbot-backend\app\uploads\audio\65_8a6464d3-fc6e-4963-9639-49abe68da310_aec0e92a-dc83-4399-8e63-f493de095df9.mp3 has 72 lines
+File chatbot-backend\app\uploads\audio\65_8a6464d3-fc6e-4963-9639-49abe68da310_b61d13f4-528d-49c5-b3d6-4dfc48fd7bdf.mp3 has 72 lines
+File chatbot-backend\app\uploads\audio\65_9b56ef55-4b98-4f06-b230-4e16c7208fb1_400a999d-4066-4b88-9742-b7dac1cd1d9c.mp3 has 54 lines
+File chatbot-backend\app\uploads\audio\65_a7219817-30c1-4867-b276-8faee759f9e4_f3d548c6-aa3e-4a6b-a79a-740ef46561f6.mp3 has 72 lines
+File chatbot-backend\app\uploads\audio\67_3bb26367-fb40-4c56-974d-99066526fd48_94436dfb-0f45-48cc-aa60-e26c97299aad.mp3 has 85 lines
+File chatbot-backend\app\uploads\audio\67_49ac0c50-03ba-4edb-a9d5-f2600da5fe54_bd3151d2-a987-44aa-80f6-31fbddca263a.mp3 has 380 lines
+File chatbot-backend\app\uploads\audio\67_c1282948-4f30-4e6d-967d-bbeb2d4a5004_250679a3-761c-4108-9be5-5b58d826433a.mp3 has 76 lines
+File chatbot-backend\app\uploads\audio\67_c1282948-4f30-4e6d-967d-bbeb2d4a5004_93272072-6724-42e2-b2fe-d99976890f6c.mp3 has 89 lines
+File chatbot-backend\app\uploads\audio\67_c1282948-4f30-4e6d-967d-bbeb2d4a5004_b9ea12ef-310d-4f1d-8178-7594bd2a2531.mp3 has 85 lines
+File chatbot-backend\app\uploads\audio\6_6200caf7-7f8f-4856-ab0b-15a437b04764_4b260c55-b1f9-4864-b873-48af91d67edc.mp3 has 473 lines
+File chatbot-backend\app\uploads\audio\6_744e2a69-cdd1-4236-a1e9-05281e73c7c5_a2220d36-02f5-4dc7-97c7-81affd304242.mp3 has 114 lines
+File chatbot-backend\app\uploads\audio\6_8aecfdfa-9d53-430b-bacf-6fe2d3898338_d9a0b1ee-7b86-4594-9b28-560c3fa2001d.mp3 has 586 lines
+File chatbot-backend\app\uploads\audio\6_b118e4d5-dade-4fed-8a10-7b965175b5c0_4e601a1f-d8da-48a2-959d-5949e9e21ff5.mp3 has 188 lines
+File chatbot-backend\app\uploads\audio\6_b118e4d5-dade-4fed-8a10-7b965175b5c0_4e8f6708-a974-4d46-836a-e3a9c43691fe.mp3 has 164 lines
+File chatbot-backend\app\uploads\audio\6_b118e4d5-dade-4fed-8a10-7b965175b5c0_5e72162b-03ac-4db1-a560-cfbd2cb1aa1f.mp3 has 129 lines
+File chatbot-backend\app\uploads\audio\6_b118e4d5-dade-4fed-8a10-7b965175b5c0_709e0408-ab8b-4933-8b46-0f01fd2e37c5.mp3 has 1185 lines
+File chatbot-backend\app\uploads\audio\6_b118e4d5-dade-4fed-8a10-7b965175b5c0_7395a6eb-1bf9-44a6-90f5-c2e674772c89.mp3 has 2213 lines
+File chatbot-backend\app\uploads\audio\73_15ed0a29-d4c4-47ce-b9c8-f509aafdf5c3_0bd48b79-bd34-4fe8-a516-33cb530ebc2c.mp3 has 1304 lines
+File chatbot-backend\app\uploads\audio\73_15ed0a29-d4c4-47ce-b9c8-f509aafdf5c3_c16ad911-f094-49f6-8ad2-7e419f91ece3.mp3 has 577 lines
+File chatbot-backend\app\uploads\audio\73_762132c8-228e-4702-9a6f-0043fd2c6b3d_d5f6a3ad-f186-43f8-9856-754d7cc19582.mp3 has 538 lines
+File chatbot-backend\app\uploads\audio\73_768b1cff-fc87-4fd7-b59d-a3ea19429bbd_30dd0201-a44e-4361-8b8e-2399db0a7951.mp3 has 364 lines
+File chatbot-backend\app\uploads\audio\73_768b1cff-fc87-4fd7-b59d-a3ea19429bbd_4565efbf-2be3-4e3c-a7be-75a2c037d91b.mp3 has 365 lines
+File chatbot-backend\app\uploads\audio\73_768b1cff-fc87-4fd7-b59d-a3ea19429bbd_6e56d8ea-3d22-4640-b8d1-fdf569c7314d.mp3 has 351 lines
+File chatbot-backend\app\uploads\audio\73_768b1cff-fc87-4fd7-b59d-a3ea19429bbd_87d25729-7775-474b-a3f6-85b857724a1a.mp3 has 380 lines
+File chatbot-backend\app\uploads\audio\73_ba40652d-3765-4d7b-bc0e-d56dcf93bffe_70359738-6001-4fa4-8329-413d749de6e3.mp3 has 279 lines
+File chatbot-backend\app\uploads\audio\73_ba40652d-3765-4d7b-bc0e-d56dcf93bffe_ae9f4ed8-d637-4ac9-a618-25b04d66e77d.mp3 has 549 lines
+File chatbot-backend\app\uploads\audio\77_08c8c412-a4ec-4f4d-b8ee-5b0ab52d6b63_79ae0d8e-06b2-4d64-b332-697effee0aea.mp3 has 219 lines
+File chatbot-backend\app\uploads\audio\77_08c8c412-a4ec-4f4d-b8ee-5b0ab52d6b63_91b469ca-e60d-42e5-9af6-975105ab441c.mp3 has 71 lines
+File chatbot-backend\app\uploads\audio\77_08c8c412-a4ec-4f4d-b8ee-5b0ab52d6b63_c9cba6aa-f27a-48df-b320-58337e324afc.mp3 has 219 lines
+File chatbot-backend\app\uploads\audio\77_08c8c412-a4ec-4f4d-b8ee-5b0ab52d6b63_dec59ecc-c6ab-445d-9ee8-dd9fe6e3d115.mp3 has 55 lines
+File chatbot-backend\app\uploads\audio\77_8e3924bf-7bca-4bec-8365-3b9e227410a1_c70f2ca9-a657-4792-856e-49ca8129e7e8.mp3 has 72 lines
+File chatbot-backend\app\uploads\audio\77_c1e36ac4-c543-44d6-a289-a741fe3ca0a1_aaf7d17f-852f-4793-83b4-b6059337cb96.mp3 has 228 lines
+File chatbot-backend\app\uploads\audio\77_c1e36ac4-c543-44d6-a289-a741fe3ca0a1_f794957c-6b3d-4489-9faf-2d639f325bb1.mp3 has 228 lines
+File chatbot-backend\app\uploads\audio\83_096f0bc6-233c-46d7-9a37-784f8703f356_3ab1557d-d325-4f5a-b9d8-79bcd2560672.mp3 has 24 lines
+File chatbot-backend\app\uploads\audio\83_0b81127e-b4ed-425a-a150-c09b27f95c33_168fa700-e16e-4efc-8c49-1e17ebbc7fa0.mp3 has 938 lines
+File chatbot-backend\app\uploads\audio\83_0b81127e-b4ed-425a-a150-c09b27f95c33_45d54c2a-f491-4231-a600-609d398f18b8.mp3 has 850 lines
+File chatbot-backend\app\uploads\audio\83_0b81127e-b4ed-425a-a150-c09b27f95c33_5dfca130-4f2b-4322-a77b-78d6931572ee.mp3 has 237 lines
+File chatbot-backend\app\uploads\audio\83_0b81127e-b4ed-425a-a150-c09b27f95c33_65699161-c868-44d1-b036-e6e694827e37.mp3 has 227 lines
+File chatbot-backend\app\uploads\audio\83_0b81127e-b4ed-425a-a150-c09b27f95c33_ca85e263-afcc-43b6-a2a3-67ff61c3c813.mp3 has 186 lines
+File chatbot-backend\app\uploads\audio\83_53c1fa30-bf37-4d97-9341-04e9eb7ff6bc_6f220f46-80fb-4e50-b97b-20b4a1269dde.mp3 has 809 lines
+File chatbot-backend\app\uploads\audio\83_7e18c9df-6ad8-4173-acba-c28e6612d5b1_61169862-abb3-47ee-8a83-ab4b84fa996b.mp3 has 140 lines
+File chatbot-backend\app\uploads\audio\83_7e18c9df-6ad8-4173-acba-c28e6612d5b1_a8a01d13-bff7-4302-853d-74fe2decb703.mp3 has 200 lines
+File chatbot-backend\app\uploads\audio\84_15ca5d82-906a-471c-aa7d-8eba0ef0041c_1d9dcfc8-5c78-41cb-9056-f2399308ad0c.mp3 has 157 lines
+File chatbot-backend\app\uploads\audio\84_15ca5d82-906a-471c-aa7d-8eba0ef0041c_4a56e4ca-9f2a-47fb-ae95-641e2b216dfe.mp3 has 772 lines
+File chatbot-backend\app\uploads\audio\84_15ca5d82-906a-471c-aa7d-8eba0ef0041c_4cf32c35-fc19-43fb-a634-d46ec427bfeb.mp3 has 159 lines
+File chatbot-backend\app\uploads\audio\84_15ca5d82-906a-471c-aa7d-8eba0ef0041c_c8df255f-d1ab-43e1-82dc-9e814d6fabac.mp3 has 157 lines
+File chatbot-backend\app\uploads\audio\84_15ca5d82-906a-471c-aa7d-8eba0ef0041c_f937dfd9-0e49-4894-bdb5-e9ff6dbcdd49.mp3 has 157 lines
+File chatbot-backend\app\uploads\audio\84_15ca5d82-906a-471c-aa7d-8eba0ef0041c_fa807fc2-a0f5-48de-8a90-1dead100b2b9.mp3 has 159 lines
+File chatbot-backend\app\uploads\audio\84_24bd8e83-6133-4f72-b1a9-1a6291a713d3_289bd544-021a-43a5-9420-bf24ba29f647.mp3 has 88 lines
+File chatbot-backend\app\uploads\audio\84_24bd8e83-6133-4f72-b1a9-1a6291a713d3_54fa55c1-e4b3-48cc-9d46-d1c1ce702743.mp3 has 1529 lines
+File chatbot-backend\app\uploads\audio\84_287adeee-8497-43af-bc48-3128ffe36ce0_98abfb78-c67e-4440-9781-9e3e5cd11560.mp3 has 2478 lines
+File chatbot-backend\app\uploads\audio\84_287adeee-8497-43af-bc48-3128ffe36ce0_cb861eed-8d7a-433c-88bb-a30d0b5e2e99.mp3 has 3020 lines
+File chatbot-backend\app\uploads\audio\84_287adeee-8497-43af-bc48-3128ffe36ce0_e7236e7f-bfa3-4282-addc-4f8ab68e8c93.mp3 has 338 lines
+File chatbot-backend\app\uploads\audio\84_6388c8a9-7a48-4691-87ee-a9ca4d53a709_4be355f1-0dc1-4735-a74b-1c1456c0013d.mp3 has 635 lines
+File chatbot-backend\app\uploads\audio\84_6388c8a9-7a48-4691-87ee-a9ca4d53a709_530c1ceb-0252-484e-b4ca-8cfb6a3d4e9a.mp3 has 142 lines
+File chatbot-backend\app\uploads\audio\84_6388c8a9-7a48-4691-87ee-a9ca4d53a709_be08fd19-d099-440a-9188-70311817bc90.mp3 has 142 lines
+File chatbot-backend\app\uploads\audio\84_7696c25b-bbb0-4fb4-8ea9-c173e74e157a_0db28fde-c9ca-4b2c-bdf0-d56e4acc22c8.mp3 has 171 lines
+File chatbot-backend\app\uploads\audio\84_7696c25b-bbb0-4fb4-8ea9-c173e74e157a_130369cd-bf1c-4e1c-b77e-86e99a560743.mp3 has 114 lines
+File chatbot-backend\app\uploads\audio\84_7696c25b-bbb0-4fb4-8ea9-c173e74e157a_3e3de7c6-0dd7-483b-8c36-3bf0e1baa0cf.mp3 has 274 lines
+File chatbot-backend\app\uploads\audio\84_7696c25b-bbb0-4fb4-8ea9-c173e74e157a_5dc30be3-17aa-4bf5-8774-60492957514f.mp3 has 214 lines
+File chatbot-backend\app\uploads\audio\84_7696c25b-bbb0-4fb4-8ea9-c173e74e157a_9f343b13-c458-4f41-babb-5644bd249ce1.mp3 has 167 lines
+File chatbot-backend\app\uploads\audio\84_7696c25b-bbb0-4fb4-8ea9-c173e74e157a_ab5300b7-d437-4533-8590-9a09730558db.mp3 has 255 lines
+File chatbot-backend\app\uploads\audio\84_7696c25b-bbb0-4fb4-8ea9-c173e74e157a_ba71d844-3a4e-4b91-9115-9d442206f3b3.mp3 has 153 lines
+File chatbot-backend\app\uploads\audio\84_7696c25b-bbb0-4fb4-8ea9-c173e74e157a_c1c498ad-b7f9-4f9a-b6b9-86b43c661512.mp3 has 153 lines
+File chatbot-backend\app\uploads\audio\84_7696c25b-bbb0-4fb4-8ea9-c173e74e157a_cb89a1cc-b423-4649-8cba-9bf5a8a43ba7.mp3 has 190 lines
+File chatbot-backend\app\uploads\audio\84_7696c25b-bbb0-4fb4-8ea9-c173e74e157a_cbbda2b8-ba5f-499b-8490-de89f9c5ad2b.mp3 has 301 lines
+File chatbot-backend\app\uploads\audio\84_7696c25b-bbb0-4fb4-8ea9-c173e74e157a_dfa89a29-d1c7-428b-be08-75895100cd1a.mp3 has 161 lines
+File chatbot-backend\app\uploads\audio\84_90174caf-d99b-4a10-bdef-5c21758c8f6c_5d9dae21-4c3d-4681-9d2d-1610e4762e59.mp3 has 632 lines
+File chatbot-backend\app\uploads\audio\84_90174caf-d99b-4a10-bdef-5c21758c8f6c_640f4702-81b3-4024-af9c-bbfc96dc7361.mp3 has 443 lines
+File chatbot-backend\app\uploads\audio\84_90174caf-d99b-4a10-bdef-5c21758c8f6c_8cc7ffbc-f538-42dc-ba35-22806478bc62.mp3 has 157 lines
+File chatbot-backend\app\uploads\audio\84_90174caf-d99b-4a10-bdef-5c21758c8f6c_d024c175-5126-45c1-9937-759d8f3e21eb.mp3 has 157 lines
+File chatbot-backend\app\uploads\audio\84_90174caf-d99b-4a10-bdef-5c21758c8f6c_d0c083fe-bcc6-4ec2-97d2-9641428d2d8c.mp3 has 159 lines
+File chatbot-backend\app\uploads\audio\84_9d990498-7ffe-4a05-9335-94cdf87c064c_8d7ba56b-a601-4eb7-ad9c-0510d6f3214c.mp3 has 3766 lines
+File chatbot-backend\app\uploads\audio\84_9d990498-7ffe-4a05-9335-94cdf87c064c_df5b6ba5-e8d5-479f-bb12-8cd94cb69b37.mp3 has 1507 lines
+File chatbot-backend\app\uploads\audio\84_d0f7fc61-a6ee-4d98-8206-56bff5f715fd_54ca838e-0bb8-410d-828e-1ac75f239a8b.mp3 has 746 lines
+File chatbot-backend\app\uploads\audio\9_08aa4fa9-a1b5-4b8a-a98c-adb30bba5f32_e0b23141-0a91-4c39-9831-68eb95e451c8.mp3 has 455 lines
+File chatbot-backend\app\uploads\audio\9_29b883ad-d60b-4684-b316-b1613356eccc_b0725faa-3892-47c9-a712-52afea7e918a.mp3 has 182 lines
+File chatbot-backend\app\uploads\audio\9_36849e97-2e79-4699-90d7-bc4800685f4b_6b57f05d-4864-46e8-b221-413b78fac9a7.mp3 has 1432 lines
+File chatbot-backend\app\uploads\audio\9_4a83b596-1c7a-458b-ab31-81953732cf33_22a3f616-18a1-42cb-b2a1-b776c7d9a811.mp3 has 169 lines
+File chatbot-backend\app\uploads\audio\9_5c8bafee-379e-4523-b6eb-6448df79d530_f55b88fb-4e3c-484a-90f2-d34b91019f0e.mp3 has 261 lines
+File chatbot-backend\app\uploads\audio\9_7c0e11f7-a00f-4a0c-9d5a-5c8f5da6bafa_a552689f-e6c2-46d8-ad8d-7c513901deab.mp3 has 114 lines
+File chatbot-backend\app\uploads\audio\9_aa1ad615-2a14-4cda-911e-127e0b096e3a_0430575e-2ae1-40a4-b4a7-f74cb72b4483.mp3 has 140 lines
+File chatbot-backend\app\uploads\audio\9_aa1ad615-2a14-4cda-911e-127e0b096e3a_944de7d7-6098-438b-a3da-ed630c4dd490.mp3 has 140 lines
+File chatbot-backend\app\uploads\audio\9_bb8bf6ce-936a-49d9-b875-c910b38bb309_599a2849-e43f-43cb-be31-a59256b22077.mp3 has 345 lines
+File chatbot-backend\app\uploads\audio\9_c60622bf-d1f5-4ce5-a3c9-a5b4febb19c3_b2e6c487-d4ef-4aee-a232-71574afafd3f.mp3 has 141 lines
+File chatbot-backend\app\uploads\audio\9_d24205e5-d490-44c8-a03d-e8ec1059d8db_1adb53cb-e025-4191-8b46-ed1266c166cd.mp3 has 475 lines
+File chatbot-backend\app\uploads\audio\9_f3ee1081-7f67-43ea-a76d-87e9519609f9_c9581823-817d-42b7-8163-40df03bbd719.mp3 has 195 lines
+Folder chatbot-backend\app\uploads\audio has 64422 lines
+File chatbot-backend\app\tasks\__pycache__\deletion_tasks.cpython-312.pyc has 92 lines
+File chatbot-backend\app\tasks\__pycache__\ingestion_tasks.cpython-312.pyc has 127 lines
+File chatbot-backend\app\tasks\__pycache__\__init__.cpython-312.pyc has 2 lines
+File chatbot-backend\app\tasks\deletion_tasks.py has 432 lines
+Folder chatbot-backend\app\tasks\__pycache__ has 221 lines
+Folder chatbot-backend\app\static\avatars has 0 lines
+Folder chatbot-backend\app\static\launcher_icons has 0 lines
+Folder chatbot-backend\app\static\logos has 0 lines
+File chatbot-backend\app\services\__pycache__\advanced_rag_service.cpython-312.pyc has 267 lines
+File chatbot-backend\app\services\__pycache__\auth_service.cpython-312.pyc has 119 lines
+File chatbot-backend\app\services\__pycache__\discovery.cpython-312.pyc has 89 lines
+File chatbot-backend\app\services\__pycache__\email_service.cpython-312.pyc has 139 lines
+File chatbot-backend\app\services\__pycache__\ingestion.cpython-312.pyc has 209 lines
+File chatbot-backend\app\services\__pycache__\language_service.cpython-312.pyc has 44 lines
+File chatbot-backend\app\services\__pycache__\rag_service.cpython-312.pyc has 310 lines
+File chatbot-backend\app\services\__pycache__\ranking_service.cpython-312.pyc has 30 lines
+File chatbot-backend\app\services\__pycache__\streaming_voice_service.cpython-312.pyc has 50 lines
+File chatbot-backend\app\services\__pycache__\subscription_service.cpython-312.pyc has 79 lines
+File chatbot-backend\app\services\__pycache__\summarization_service.cpython-312.pyc has 157 lines
+File chatbot-backend\app\services\__pycache__\translation_service.cpython-312.pyc has 29 lines
+File chatbot-backend\app\services\__pycache__\voice_service.cpython-312.pyc has 76 lines
+File chatbot-backend\app\services\advanced_rag_service.py has 700 lines
+File chatbot-backend\app\services\auth_service.py has 375 lines
+File chatbot-backend\app\services\discovery.py has 288 lines
+File chatbot-backend\app\services\email_service.py has 190 lines
+File chatbot-backend\app\services\ingestion.py has 1057 lines
+File chatbot-backend\app\services\rag_service.py has 1327 lines
+File chatbot-backend\app\services\ranking_service.py has 60 lines
+File chatbot-backend\app\services\subscription_service.py has 441 lines
+File chatbot-backend\app\services\summarization_service.py has 398 lines
+File chatbot-backend\app\services\voice_service.py has 197 lines
+Folder chatbot-backend\app\services\__pycache__ has 1598 lines
+File chatbot-backend\app\mcp\__pycache__\mcp_service.cpython-312.pyc has 53 lines
+File chatbot-backend\app\mcp\__pycache__\schema_formatter.cpython-312.pyc has 65 lines
+File chatbot-backend\app\mcp\__pycache__\__init__.cpython-312.pyc has 2 lines
+File chatbot-backend\app\mcp\mcp_service.py has 155 lines
+File chatbot-backend\app\mcp\schema_formatter.py has 122 lines
+File chatbot-backend\app\mcp\__init__.py has 8 lines
+Folder chatbot-backend\app\mcp\__pycache__ has 120 lines
+File chatbot-backend\app\api\__pycache__\auth_routes.cpython-312.pyc has 101 lines
+File chatbot-backend\app\api\__pycache__\mcp_routes.cpython-312.pyc has 20 lines
+File chatbot-backend\app\api\__pycache__\routes.cpython-312.pyc has 561 lines
+File chatbot-backend\app\api\__pycache__\settings_routes.cpython-312.pyc has 3 lines
+File chatbot-backend\app\api\__pycache__\subscription_routes.cpython-312.pyc has 69 lines
+File chatbot-backend\app\api\__pycache__\voice_routes.cpython-312.pyc has 78 lines
+File chatbot-backend\app\api\__pycache__\__init__.cpython-312.pyc has 2 lines
+File chatbot-backend\app\api\auth_routes.py has 541 lines
+File chatbot-backend\app\api\mcp_routes.py has 132 lines
+File chatbot-backend\app\api\routes.py has 2792 lines
+File chatbot-backend\app\api\settings_routes.py has 119 lines
+File chatbot-backend\app\api\subscription_routes.py has 294 lines
+File chatbot-backend\app\api\voice_routes.py has 236 lines
+File chatbot-backend\app\api\__init__.py has 7 lines
+Folder chatbot-backend\app\api\__pycache__ has 834 lines
+Folder chatbot-backend\app\api has 4955 lines
+File chatbot-backend\app\app.db has 979 lines
+File chatbot-backend\app\d.sqbpro has 3 lines
+Folder chatbot-backend\app\mcp has 405 lines
+File chatbot-backend\app\models.py has 426 lines
+Folder chatbot-backend\app\services has 6631 lines
+File chatbot-backend\app\sse_utils.py has 65 lines
+Folder chatbot-backend\app\static has 0 lines
+Folder chatbot-backend\app\tasks has 653 lines
+Folder chatbot-backend\app\uploads has 64422 lines
+File chatbot-backend\app\utils.py has 29 lines
+File chatbot-backend\app\__init__.py has 195 lines
+Folder chatbot-backend\app\__pycache__ has 236 lines
+File chatbot-backend\alembic\versions\64314f8aacab_add_advanced_rag_enabled_field_to_.py has 33 lines
+File chatbot-backend\alembic\env.py has 79 lines
+File chatbot-backend\alembic\README has 1 lines
+File chatbot-backend\alembic\script.py.mako has 29 lines
+Folder chatbot-backend\alembic\versions has 33 lines
+File chatbot-backend\.ruff_cache\0.11.7\10449645670284106132 has 318 lines
+File chatbot-backend\.ruff_cache\0.11.7\15507096726456237248 has 447 lines
+File chatbot-backend\.ruff_cache\0.11.7\16492866507245512891 has 1 lines
+File chatbot-backend\.ruff_cache\0.11.7\17897412385948387220 has 1778 lines
+File chatbot-backend\.ruff_cache\0.11.7\2036784011825744986 has 1 lines
+File chatbot-backend\.ruff_cache\0.11.7\4746139062813624596 has 1 lines
+File chatbot-backend\.ruff_cache\0.11.7\7822054182223565467 has 4704 lines
+File chatbot-backend\.ruff_cache\0.11.7\8111892308835100679 has 327 lines
+File chatbot-backend\.ruff_cache\0.11.7\8378550322055752011 has 1 lines
+File chatbot-backend\.ruff_cache\.gitignore has 3 lines
+Folder chatbot-backend\.ruff_cache\0.11.7 has 7578 lines
+File chatbot-backend\.ruff_cache\CACHEDIR.TAG has 1 lines
+File chatbot-backend\.env has 35 lines
+Folder chatbot-backend\.ruff_cache has 7582 lines
+Folder chatbot-backend\alembic has 142 lines
+File chatbot-backend\alembic.ini has 120 lines
+Folder chatbot-backend\app has 78999 lines
+File chatbot-backend\app.db has 2198 lines
+File chatbot-backend\Cache has 1 lines
+File chatbot-backend\cd has 1 lines
+File chatbot-backend\celery_worker.py has 68 lines
+File chatbot-backend\Chatbot has 1 lines
+File chatbot-backend\cleanup_tasks.py has 80 lines
+File chatbot-backend\clear_database.py has 86 lines
+File chatbot-backend\config.py has 100 lines
+File chatbot-backend\Embeddings has 1 lines
+File chatbot-backend\Fetched has 1 lines
+File chatbot-backend\Final has 1 lines
+File chatbot-backend\Finish has 1 lines
+File chatbot-backend\GCS has 1 lines
+File chatbot-backend\Generated has 1 lines
+Folder chatbot-backend\migrations has 0 lines
+File chatbot-backend\No has 1 lines
+File chatbot-backend\pip has 1 lines
+File chatbot-backend\Preparing has 1 lines
+File chatbot-backend\Processing has 1 lines
+File chatbot-backend\Prompt has 1 lines
+File chatbot-backend\Query has 1 lines
+File chatbot-backend\Querying has 1 lines
+File chatbot-backend\Raw has 1 lines
+File chatbot-backend\Rephrased has 1 lines
+File chatbot-backend\requirements.txt has 42 lines
+File chatbot-backend\Response has 1 lines
+File chatbot-backend\run.py has 57 lines
+File chatbot-backend\Selected has 1 lines
+Folder chatbot-backend\tests has 2300 lines
+File chatbot-backend\test_ingestion_task.py has 169 lines
+File chatbot-backend\Total has 1 lines
+Folder chatbot-backend\uploads has 25578 lines
+File chatbot-backend\Using has 1 lines
+Folder chatbot-backend\venv has 0 lines
+File chatbot-backend\Vertex has 1 lines
+Folder chatbot-backend\__pycache__ has 74 lines
+File agent chatbot\__pycache__\app.cpython-312.pyc has 130 lines
+File agent chatbot\__pycache__\database_setup.cpython-312.pyc has 88 lines
+File agent chatbot\__pycache__\sample_data_importer.cpython-312.pyc has 142 lines
+File agent chatbot\__pycache__\test_api.cpython-312.pyc has 163 lines
+File agent chatbot\plant_shop_mvp\ecommerce.db has 20 lines
+File agent chatbot\cymbal_home_garden_backend\templates\404.html has 14 lines
+File agent chatbot\cymbal_home_garden_backend\templates\agent_widget.html has 103 lines
+File agent chatbot\cymbal_home_garden_backend\templates\base.html has 55 lines
+File agent chatbot\cymbal_home_garden_backend\templates\index.html has 217 lines
+File agent chatbot\cymbal_home_garden_backend\templates\product_detail.html has 181 lines
+File agent chatbot\cymbal_home_garden_backend\static\js\audio-modules.js has 176 lines
+File agent chatbot\cymbal_home_garden_backend\static\js\pcm-player-processor.js has 112 lines
+File agent chatbot\cymbal_home_garden_backend\static\js\pcm-recorder-processor.js has 30 lines
+File agent chatbot\cymbal_home_garden_backend\static\js\PCMPlayerProcessor.js has 74 lines
+File agent chatbot\cymbal_home_garden_backend\static\images\basil_genovese.png has 520 lines
+File agent chatbot\cymbal_home_garden_backend\static\images\big image.png has 1337 lines
+File agent chatbot\cymbal_home_garden_backend\static\images\cucumber_marketmore.png has 310 lines
+File agent chatbot\cymbal_home_garden_backend\static\images\echinacea_purple.png has 362 lines
+File agent chatbot\cymbal_home_garden_backend\static\images\fern_boston.png has 443 lines
+File agent chatbot\cymbal_home_garden_backend\static\images\fert_allpurpose_liquid.png has 320 lines
+File agent chatbot\cymbal_home_garden_backend\static\images\fert_bloom.png has 313 lines
+File agent chatbot\cymbal_home_garden_backend\static\images\fert_veggie.png has 193 lines
+File agent chatbot\cymbal_home_garden_backend\static\images\garden_gloves_l.png has 379 lines
+File agent chatbot\cymbal_home_garden_backend\static\images\lavender_munstead.png has 620 lines
+File agent chatbot\cymbal_home_garden_backend\static\images\marigold_crackerjack.png has 427 lines
+File agent chatbot\cymbal_home_garden_backend\static\images\mint_spearmint.png has 345 lines
+File agent chatbot\cymbal_home_garden_backend\static\images\monstera_deliciosa.png has 1337 lines
+File agent chatbot\cymbal_home_garden_backend\static\images\pepper_bell_green.png has 532 lines
+File agent chatbot\cymbal_home_garden_backend\static\images\pest_insecticidal_soap_rtu.png has 545 lines
+File agent chatbot\cymbal_home_garden_backend\static\images\pest_neem_oil_concentrate.png has 669 lines
+File agent chatbot\cymbal_home_garden_backend\static\images\pot_ceramic_large.png has 522 lines
+File agent chatbot\cymbal_home_garden_backend\static\images\pot_terracotta_medium.png has 303 lines
+File agent chatbot\cymbal_home_garden_backend\static\images\pruners_bypass.png has 364 lines
+File agent chatbot\cymbal_home_garden_backend\static\images\pt.jpg has 4988 lines
+File agent chatbot\cymbal_home_garden_backend\static\images\rosemary_arp.png has 422 lines
+File agent chatbot\cymbal_home_garden_backend\static\images\sage_common.png has 262 lines
+File agent chatbot\cymbal_home_garden_backend\static\images\seed_carrot_danvers.png has 298 lines
+File agent chatbot\cymbal_home_garden_backend\static\images\seed_lettuce_buttercrunch.png has 299 lines
+File agent chatbot\cymbal_home_garden_backend\static\images\soil_houseplant.png has 179 lines
+File agent chatbot\cymbal_home_garden_backend\static\images\soil_organic_veg.png has 377 lines
+File agent chatbot\cymbal_home_garden_backend\static\images\soil_seed_start.png has 305 lines
+File agent chatbot\cymbal_home_garden_backend\static\images\soil_welldrain.png has 467 lines
+File agent chatbot\cymbal_home_garden_backend\static\images\strawberry_earlibelle.png has 198 lines
+File agent chatbot\cymbal_home_garden_backend\static\images\sunflower_mammoth.png has 455 lines
+File agent chatbot\cymbal_home_garden_backend\static\images\tomato_celebrity.png has 224 lines
+File agent chatbot\cymbal_home_garden_backend\static\images\trowel_ergo.png has 224 lines
+File agent chatbot\cymbal_home_garden_backend\static\images\watering_can_plastic_1gal.png has 149 lines
+File agent chatbot\cymbal_home_garden_backend\static\agent_widget.css has 798 lines
+File agent chatbot\cymbal_home_garden_backend\static\agent_widget.js has 1371 lines
+Folder agent chatbot\cymbal_home_garden_backend\static\images has 18688 lines
+File agent chatbot\cymbal_home_garden_backend\static\images.zip has 12561 lines
+Folder agent chatbot\cymbal_home_garden_backend\static\js has 392 lines
+File agent chatbot\cymbal_home_garden_backend\static\script.js has 1080 lines
+File agent chatbot\cymbal_home_garden_backend\static\style.css has 1201 lines
+Folder agent chatbot\cymbal_home_garden_backend\static has 36091 lines
+Folder agent chatbot\cymbal_home_garden_backend\templates has 570 lines
+File agent chatbot\cymbal_home_garden_backend\test_api.py has 200 lines
+File agent chatbot\agents\__pycache__\__init__.cpython-312.pyc has 2 lines
+File agent chatbot\agents\customer-service\__pycache__\streaming_server.cpython-312.pyc has 141 lines
+File agent chatbot\agents\customer-service\__pycache__\__init__.cpython-312.pyc has 2 lines
+File agent chatbot\agents\customer-service\tests\unit\test_config.py has 29 lines
+File agent chatbot\agents\customer-service\tests\unit\test_recommendation_logic.py has 478 lines
+File agent chatbot\agents\customer-service\tests\unit\test_tools.py has 185 lines
+File agent chatbot\agents\customer-service\tests\unit\__init__.py has 14 lines
+Folder agent chatbot\agents\customer-service\tests\unit has 706 lines
+File agent chatbot\agents\customer-service\tests\__init__.py has 14 lines
+File agent chatbot\agents\customer-service\eval\sessions\123.session.json has 838 lines
+File agent chatbot\agents\customer-service\eval\eval_data\full_conversation.test.json has 103 lines
+File agent chatbot\agents\customer-service\eval\eval_data\simple.test.json has 20 lines
+File agent chatbot\agents\customer-service\eval\eval_data\test_config.json has 7 lines
+Folder agent chatbot\agents\customer-service\eval\eval_data has 130 lines
+Folder agent chatbot\agents\customer-service\eval\sessions has 838 lines
+File agent chatbot\agents\customer-service\eval\test_eval.py has 47 lines
+File agent chatbot\agents\customer-service\eval\__init__.py has 14 lines
+File agent chatbot\agents\customer-service\deployment\deploy.py has 96 lines
+File agent chatbot\agents\customer-service\customer_servicenew\agent new.py has 75 lines
+File agent chatbot\agents\customer-service\customer_servicenew\callbacksnew.py has 192 lines
+File agent chatbot\agents\customer-service\customer_servicenew\confignew.py has 49 lines
+File agent chatbot\agents\customer-service\customer_servicenew\customernew.py has 198 lines
+File agent chatbot\agents\customer-service\customer_servicenew\promptsnew.py has 86 lines
+File agent chatbot\agents\customer-service\customer_servicenew\pyprojectnew.toml has 56 lines
+File agent chatbot\agents\customer-service\customer_servicenew\READMEnew.md has 287 lines
+File agent chatbot\agents\customer-service\customer_servicenew\toolsnew.py has 402 lines
+File agent chatbot\agents\customer-service\customer_service\__pycache__\agent.cpython-312.pyc has 36 lines
+File agent chatbot\agents\customer-service\customer_service\__pycache__\config.cpython-312.pyc has 9 lines
+File agent chatbot\agents\customer-service\customer_service\__pycache__\live_streaming_agent_handler.cpython-312.pyc has 66 lines
+File agent chatbot\agents\customer-service\customer_service\__pycache__\prompts.cpython-312.pyc has 174 lines
+File agent chatbot\agents\customer-service\customer_service\__pycache__\__init__.cpython-312.pyc has 3 lines
+File agent chatbot\agents\customer-service\customer_service\tools\__pycache__\image_identifier.cpython-312.pyc has 37 lines
+File agent chatbot\agents\customer-service\customer_service\tools\__pycache__\tools.cpython-312.pyc has 264 lines
+File agent chatbot\agents\customer-service\customer_service\tools\__pycache__\__init__.cpython-312.pyc has 2 lines
+File agent chatbot\agents\customer-service\customer_service\tools\image_identifier.py has 113 lines
+File agent chatbot\agents\customer-service\customer_service\tools\tools.py has 767 lines
+File agent chatbot\agents\customer-service\customer_service\tools\__init__.py has 14 lines
+Folder agent chatbot\agents\customer-service\customer_service\tools\__pycache__ has 303 lines
+File agent chatbot\agents\customer-service\customer_service\shared_libraries\__pycache__\callbacks.cpython-312.pyc has 79 lines
+File agent chatbot\agents\customer-service\customer_service\shared_libraries\__pycache__\__init__.cpython-312.pyc has 3 lines
+File agent chatbot\agents\customer-service\customer_service\shared_libraries\callbacks.py has 333 lines
+File agent chatbot\agents\customer-service\customer_service\shared_libraries\__init__.py has 21 lines
+Folder agent chatbot\agents\customer-service\customer_service\shared_libraries\__pycache__ has 82 lines
+File agent chatbot\agents\customer-service\customer_service\entities\__pycache__\customer.cpython-312.pyc has 69 lines
+File agent chatbot\agents\customer-service\customer_service\entities\__pycache__\__init__.cpython-312.pyc has 2 lines
+File agent chatbot\agents\customer-service\customer_service\entities\customer.py has 198 lines
+File agent chatbot\agents\customer-service\customer_service\entities\__init__.py has 14 lines
+Folder agent chatbot\agents\customer-service\customer_service\entities\__pycache__ has 71 lines
+File agent chatbot\agents\customer-service\customer_service\adk_sessions.db has 5621 lines
+File agent chatbot\agents\customer-service\customer_service\agent.py has 166 lines
+File agent chatbot\agents\customer-service\customer_service\config.py has 52 lines
+Folder agent chatbot\agents\customer-service\customer_service\entities has 283 lines
+File agent chatbot\agents\customer-service\customer_service\prompts.py has 194 lines
+Folder agent chatbot\agents\customer-service\customer_service\shared_libraries has 436 lines
+Folder agent chatbot\agents\customer-service\customer_service\tools has 1197 lines
+File agent chatbot\agents\customer-service\customer_service\__init__.py has 21 lines
+Folder agent chatbot\agents\customer-service\customer_service\__pycache__ has 288 lines
+File agent chatbot\agents\customer-service\.env has 11 lines
+File agent chatbot\agents\customer-service\.gitignore has 62 lines
+Folder agent chatbot\agents\customer-service\customer_service has 8258 lines
+Folder agent chatbot\agents\customer-service\customer_servicenew has 1345 lines
+File agent chatbot\agents\customer-service\customer_service_workflow.png has 1007 lines
+Folder agent chatbot\agents\customer-service\deployment has 96 lines
+Folder agent chatbot\agents\customer-service\eval has 1029 lines
+File agent chatbot\agents\customer-service\poetry.lock has 3279 lines
+File agent chatbot\agents\customer-service\pyproject.toml has 59 lines
+File agent chatbot\agents\customer-service\README.md has 280 lines
+File agent chatbot\agents\customer-service\streaming_server.py has 682 lines
+Folder agent chatbot\agents\customer-service\tests has 720 lines
+File agent chatbot\agents\customer-service\__init__.py has 1 lines
+Folder agent chatbot\agents\customer-service\__pycache__ has 143 lines
+Folder agent chatbot\agents\customer-service has 16972 lines
+File agent chatbot\agents\README.md has 193 lines
+File agent chatbot\agents\__init__.py has 1 lines
+Folder agent chatbot\agents\__pycache__ has 2 lines
+File agent chatbot\adk-docs\examples\python\snippets\streaming\adk-streaming\app\static\js\app.js has 212 lines
+File agent chatbot\adk-docs\examples\python\snippets\streaming\adk-streaming\app\static\js\audio-player.js has 25 lines
+File agent chatbot\adk-docs\examples\python\snippets\streaming\adk-streaming\app\static\js\audio-recorder.js has 59 lines
+File agent chatbot\adk-docs\examples\python\snippets\streaming\adk-streaming\app\static\js\pcm-player-processor.js has 77 lines
+File agent chatbot\adk-docs\examples\python\snippets\streaming\adk-streaming\app\static\js\pcm-recorder-processor.js has 19 lines
+File agent chatbot\adk-docs\examples\python\snippets\streaming\adk-streaming\app\static\index.html has 24 lines
+Folder agent chatbot\adk-docs\examples\python\snippets\streaming\adk-streaming\app\static\js has 392 lines
+File agent chatbot\adk-docs\examples\python\snippets\streaming\adk-streaming\app\google_search_agent\agent.py has 31 lines
+File agent chatbot\adk-docs\examples\python\snippets\streaming\adk-streaming\app\google_search_agent\__init__.py has 2 lines
+Folder agent chatbot\adk-docs\examples\python\snippets\streaming\adk-streaming\app\google_search_agent has 33 lines
+File agent chatbot\adk-docs\examples\python\snippets\streaming\adk-streaming\app\main.py has 266 lines
+Folder agent chatbot\adk-docs\examples\python\snippets\streaming\adk-streaming\app\static has 416 lines
+Folder agent chatbot\adk-docs\examples\python\snippets\streaming\adk-streaming\app has 715 lines
+Folder agent chatbot\adk-docs\examples\python\snippets\streaming\adk-streaming has 715 lines
+Folder agent chatbot\adk-docs\examples\python\snippets\streaming has 715 lines
+Folder agent chatbot\adk-docs\examples\python\snippets has 715 lines
+File agent chatbot\adk-docs\examples\.gitkeep has 1 lines
+Folder agent chatbot\adk-docs\examples\python has 715 lines
+File agent chatbot\adk-docs\.gitignore has 206 lines
+File agent chatbot\adk-docs\CONTRIBUTING.md has 84 lines
+Folder agent chatbot\adk-docs\examples has 716 lines
+File agent chatbot\adk-docs\LICENSE has 203 lines
+File agent chatbot\adk-docs\llms.txt has 674 lines
+File agent chatbot\adk-docs\mkdocs.yml has 164 lines
+File agent chatbot\adk-docs\README.md has 68 lines
+File agent chatbot\adk-docs\requirements.txt has 3 lines
+File agent chatbot\.git\refs\remotes\orgin\HEAD has 2 lines
+File agent chatbot\.git\refs\remotes\orgin\main has 2 lines
+Folder agent chatbot\.git\refs\remotes\orgin has 4 lines
+File agent chatbot\.git\refs\heads\main has 2 lines
+Folder agent chatbot\.git\refs\heads has 2 lines
+Folder agent chatbot\.git\refs\remotes has 4 lines
+Folder agent chatbot\.git\refs\tags has 0 lines
+File agent chatbot\.git\objects\ff\f282a7d27d300433ae18dd67ba68d6757fd4ea has 17 lines
+File agent chatbot\.git\objects\fd\f5a7f4dd4d655f8a51d387a478c2687b8b6ad5 has 4786 lines
+File agent chatbot\.git\objects\fb\5811ece7ffbe9974245c3343548dda54e89432 has 1 lines
+File agent chatbot\.git\objects\fb\ede9cda5501b901538a0648fcbb221e07b466e has 4 lines
+File agent chatbot\.git\objects\fa\d7f5e0d1c7053667f4c8f15c0eeb1800d2be3f has 11 lines
+File agent chatbot\.git\objects\f6\6d85623a32dea2eb1040643feac58b33522d39 has 11 lines
+File agent chatbot\.git\objects\f5\037bb89ea834929b91b9c9a3c56da55b3a8319 has 2 lines
+File agent chatbot\.git\objects\f5\6d97069a12156c0dbd3bc0e43fcdedbf842111 has 39 lines
+File agent chatbot\.git\objects\f4\9a4e16e68b128803cc2dcea614603632b04eac has 23 lines
+File agent chatbot\.git\objects\f0\e700257e1e2f02c9918ad2134ef3cb4299a612 has 252 lines
+File agent chatbot\.git\objects\ee\14f14e33f0a683fbe8350c2d81e1033930310c has 428 lines
+File agent chatbot\.git\objects\ee\50270ec8652d8c4b3b5766770cabaa91696b38 has 5 lines
+File agent chatbot\.git\objects\e9\a5fccb6ec3ed1eb37d066249139307353fb50c has 38 lines
+File agent chatbot\.git\objects\e8\10bdc03af32d5d63ce3a90a9a610b01d896f93 has 10 lines
+File agent chatbot\.git\objects\e7\faca19fcc0fdb8d498c220ef99d0c734394026 has 46 lines
+File agent chatbot\.git\objects\e6\9de29bb2d1d6434b8b29ae775ad8c2e48c5391 has 1 lines
+File agent chatbot\.git\objects\e4\f866a35a4c474c8ba6d2eecd61c2036c23dd8c has 1 lines
+File agent chatbot\.git\objects\e1\6055f0fa5e23b5bfc4aa87fdf0b48dfadb02f1 has 19 lines
+File agent chatbot\.git\objects\e1\c5ddd11d5b1c421513d552ad7cbd102315f8ed has 1 lines
+File agent chatbot\.git\objects\dd\00c09c07281c4585ee43b6b0136749a33b3dca has 30 lines
+File agent chatbot\.git\objects\dd\321005d43061f4f0296c4c6393a1e3ecf84c81 has 13 lines
+File agent chatbot\.git\objects\db\7b9439941c69cc11d3f86301729ed619331d31 has 15 lines
+File agent chatbot\.git\objects\d9\731af90a48f342a585a757a802e282ee4392d9 has 13 lines
+File agent chatbot\.git\objects\d7\34dded46fa4ae3d6baad676f1e6b6d78bc9fed has 45 lines
+File agent chatbot\.git\objects\d6\45695673349e3947e8e5ae42332d0ac3164cd7 has 24 lines
+File agent chatbot\.git\objects\d6\cb9606dac8f9008c3d665fd20a7e99ede1f138 has 9 lines
+File agent chatbot\.git\objects\d4\5072f1503d905cfa86f1c788458d79fb7236a9 has 1 lines
+File agent chatbot\.git\objects\d3\5d8018e1410c085f0eb3c477e79cd4ad513c00 has 1 lines
+File agent chatbot\.git\objects\d3\a8edcd3e8fd7d8bec83d1919059d28ab9829e7 has 5 lines
+File agent chatbot\.git\objects\d2\4b71ff82e65e5d0ed3785b606becbda9473d31 has 8 lines
+File agent chatbot\.git\objects\cc\a315dbc6380104114abd457b31d1851b24751f has 2 lines
+File agent chatbot\.git\objects\c9\2a86bd07928d5522b1794f7fcb51200cff7b24 has 74 lines
+File agent chatbot\.git\objects\c8\1c619698fd376ac1438fbda23178d8ff3dc2c5 has 23 lines
+File agent chatbot\.git\objects\c7\180aa124066cc9bd0c0da03d40e87961e7770b has 503 lines
+File agent chatbot\.git\objects\c7\bf11acd91d0506aff17af99f113ca7b0641fbf has 1 lines
+File agent chatbot\.git\objects\c6\5798318281c40c48eb0cc8fe565735f6f1e821 has 9 lines
+File agent chatbot\.git\objects\c6\5aa2af76435f7fdf9741375e172f2874095681 has 213 lines
+File agent chatbot\.git\objects\c6\b9edfb7e48763d20e2edce811847d0f8ad322b has 17 lines
+File agent chatbot\.git\objects\c6\d6e7925957a981ac792ab7c824efdf05593abe has 1 lines
+File agent chatbot\.git\objects\c3\0077c3cf09d88e8202404b6bb6f1fd3020a830 has 1 lines
+File agent chatbot\.git\objects\c2\8d1132f93b0cc5a22f608d20e4bc7435bb2139 has 507 lines
+File agent chatbot\.git\objects\c0\7ede1de6cf9080a00c1d2e934d8b9ca0694a69 has 13 lines
+File agent chatbot\.git\objects\c0\81a6f3621bda0a40124e4b50265591f82fc3d5 has 51 lines
+File agent chatbot\.git\objects\c0\feeeb63e894335ed9700ea1f6250e8acf0b15a has 27 lines
+File agent chatbot\.git\objects\bd\7f72adece80e62d23c1702cec7ad284f6d2f00 has 4 lines
+File agent chatbot\.git\objects\bc\23aaed4bebbd0c9ca0b82a1059b9c8a15aa9c9 has 4 lines
+File agent chatbot\.git\objects\bb\dfdfa919a906f4f2ff93866fdca2ba63da3f72 has 337 lines
+File agent chatbot\.git\objects\ba\2e85ef5f1eb1d788dcf96cd4b5774b263ad869 has 21 lines
+File agent chatbot\.git\objects\b7\1b13722fa92286b4944241e0e08bad41be44df has 2 lines
+File agent chatbot\.git\objects\b7\2e0973cb336d5ac0e7f1e3851cc95ca5ec9632 has 1 lines
+File agent chatbot\.git\objects\b1\694f73756085035acc4d2ea5a01f76461fae19 has 30 lines
+File agent chatbot\.git\objects\b1\800a57eaadc90050ab5c8d1f23e160de49b934 has 9 lines
+File agent chatbot\.git\objects\b1\c54bd31379d23c6413e178dce7514777fbb652 has 4 lines
+File agent chatbot\.git\objects\b0\37d184035fd986cb5f14ce649a5e2347ec02a9 has 1 lines
+File agent chatbot\.git\objects\b0\62125b7aeb805b8b9f371b102d3baff4aa8a9b has 280 lines
+File agent chatbot\.git\objects\af\890517edc0109fd0332e59facd085eaa198085 has 4 lines
+File agent chatbot\.git\objects\af\ba14d17e5328ab1ea86a64ac8bdcb4532a1407 has 333 lines
+File agent chatbot\.git\objects\af\c156acfab1b44a8701bd3931e75a1677226b44 has 2 lines
+File agent chatbot\.git\objects\ae\0f256b61d7f3a62b41415fd1014828134dedc6 has 9 lines
+File agent chatbot\.git\objects\a9\4a1d7770cefe868d45e20e280aeaf44f98d227 has 4 lines
+File agent chatbot\.git\objects\a9\653d021658432559aed48994df262328ea432f has 20 lines
+File agent chatbot\.git\objects\a5\729ddbfd5bdaf5e428a7f2481883a60366ec5f has 163 lines
+File agent chatbot\.git\objects\a2\08e1b8b616e9ebc57d064e77d8c415f272811e has 1 lines
+File agent chatbot\.git\objects\a2\62c13917494f05e9424a6ecb3c6c22b8a3fd6b has 1 lines
+File agent chatbot\.git\objects\a1\3f99d5e6fd09632bf80cb53ab4a798af320c9a has 25 lines
+File agent chatbot\.git\objects\a0\06c64fd6d6e2da8f9fb4e728b33a42374b7b01 has 2 lines
+File agent chatbot\.git\objects\a0\9425911b16035de977b20b45209cf11b457105 has 10 lines
+File agent chatbot\.git\objects\9d\fe8e79c76e27c53f97097db93eeae86804cab8 has 2 lines
+File agent chatbot\.git\objects\9b\60ce4b025b8f28724d8d7cb0d378a7173784cd has 25 lines
+File agent chatbot\.git\objects\96\f447c940befe327a2762ba6124691549ff2d18 has 10 lines
+File agent chatbot\.git\objects\95\3322ce667843d4ca17e824166019d06492fb37 has 6 lines
+File agent chatbot\.git\objects\92\62e3e65b353d1c10eca3a3187d49afc1bca4b5 has 2 lines
+File agent chatbot\.git\objects\8c\4b8eb5b5cd00011b48ca8ed3d56fa7ecdfb8e2 has 15 lines
+File agent chatbot\.git\objects\88\a8a64c23cb38fac7dbe18c49ad0f84b97e3480 has 7 lines
+File agent chatbot\.git\objects\86\b3c53e2c6338db0ba2576f3688c3b21f74c25b has 301 lines
+File agent chatbot\.git\objects\85\98788866b9781a71267112e0fdaa6a50d314fe has 8 lines
+File agent chatbot\.git\objects\82\806e6dd593f3465864a65ebb38e0b8df9173d6 has 3 lines
+File agent chatbot\.git\objects\82\b1bf9f7e27c1a1ed73cb845fb14310aaa531e9 has 97 lines
+File agent chatbot\.git\objects\80\cd321606fa5a8f0ffd1a44d9fc1a5a7a693510 has 2 lines
+File agent chatbot\.git\objects\7f\851b201a7b298935bd41d99de127a34f4f2b31 has 1 lines
+File agent chatbot\.git\objects\7e\e468520b0067ab442970e0c3c5ddd78c1e86dc has 9 lines
+File agent chatbot\.git\objects\7c\84ffea343e9d98da98ef213365aa8e21e311c1 has 23 lines
+File agent chatbot\.git\objects\79\b18f24419def13d6297565e472d7b50c44d072 has 673 lines
+File agent chatbot\.git\objects\77\01726d0edffbe26020dd3b5f9c5b95ecce43a7 has 53 lines
+File agent chatbot\.git\objects\77\7961a0b440cde561947a9086e971dd29a57428 has 32 lines
+File agent chatbot\.git\objects\77\ec01f64a650aab073b724a6dea03cbdc1cd05f has 1 lines
+File agent chatbot\.git\objects\75\fc55e8cb377c11e6c5128e48f173b3de61eb20 has 12 lines
+File agent chatbot\.git\objects\74\84d44775d92e059d6e301f9638d83b600e9634 has 1 lines
+File agent chatbot\.git\objects\74\92801ac7a681e53804a9483c5a1ede16999d82 has 303 lines
+File agent chatbot\.git\objects\74\95a5906c500f6af82d4074293dc1bc3707ef38 has 19 lines
+File agent chatbot\.git\objects\74\a06276316c5daee077eddb463c6bfc79ab39d6 has 1 lines
+File agent chatbot\.git\objects\73\533a053c04a9232960f71900a7683b82d9e2b9 has 44 lines
+File agent chatbot\.git\objects\73\a5551fa265a7dc5d3cdde4207f335e1954f00a has 17 lines
+File agent chatbot\.git\objects\71\7812d33d5c39073f8e439d08eed6669471f3c0 has 12 lines
+File agent chatbot\.git\objects\70\7ca10a1fb21023c81932a91ecd1ee58bbff738 has 242 lines
+File agent chatbot\.git\objects\6e\6c839ba8981ccc315d3d3adffb442bdd3e38cb has 5 lines
+File agent chatbot\.git\objects\6d\97f7dde425f3561625b97355a6c2a5eaed0723 has 1 lines
+File agent chatbot\.git\objects\6d\9dbf23b2fced015147ff1f7092fbaf4e4b3136 has 7 lines
+File agent chatbot\.git\objects\6c\2097fdf1d78f2d5e9050423372d04692dd7e91 has 10 lines
+File agent chatbot\.git\objects\6a\b1b9e0584cc37e56e67b55fffa734a8911bcbf has 444 lines
+File agent chatbot\.git\objects\69\c5b9903297c830225fc4e4efe5f65d94a9361f has 5 lines
+File agent chatbot\.git\objects\65\7d9c15aebfe99e8d9478442f0dbde281997bf9 has 1 lines
+File agent chatbot\.git\objects\65\fc68cce7b16c0b5dac41978b50d776fdf36cb3 has 8 lines
+File agent chatbot\.git\objects\60\a1408e2ed2afb11991402e6e17080e179f4c5c has 1 lines
+File agent chatbot\.git\objects\60\b019865dc4bfd1b84c50cd82975f700e12f991 has 5 lines
+File agent chatbot\.git\objects\5e\320b0d5c80031bb708b1cb0fb960d007f83c80 has 30 lines
+File agent chatbot\.git\objects\5c\0649f262cb1a1733dc7ea8d19f73dcbdb32ee8 has 1 lines
+File agent chatbot\.git\objects\58\5a7edbfc1bb9dad90c3e53a23b601da0ce5fda has 12 lines
+File agent chatbot\.git\objects\58\5d58827863e880329b992e4ea7cd71fedf572e has 2 lines
+File agent chatbot\.git\objects\53\ce446bf587543702b5ad9a198dca10399b4929 has 25 lines
+File agent chatbot\.git\objects\52\00807cd2a7cfc4803a7907ed12b380ebc06817 has 159 lines
+File agent chatbot\.git\objects\52\cc99cfbebab1aab06945fd638c1333ace53bd2 has 14 lines
+File agent chatbot\.git\objects\52\ec6a9669aa09fd3dd5764e8547dbfca2f3fc37 has 413 lines
+File agent chatbot\.git\objects\51\ed567b0296d8c13cd75f1ed705e44f95d3ebd6 has 14 lines
+File agent chatbot\.git\objects\50\2d8c9b8e607a09d0c3ee8d06cbf565d5ec9cd2 has 6 lines
+File agent chatbot\.git\objects\50\52fdfca1f30027786b129d2db7943d018165b4 has 521 lines
+File agent chatbot\.git\objects\48\814ddb7efdc48e0776310d581fda189d650c01 has 4 lines
+File agent chatbot\.git\objects\47\50b4b1c345dc28cecf3b39983a451614aa9c92 has 5 lines
+File agent chatbot\.git\objects\47\7239f0ce9b1ec084bd9a1a72bd68b2e13ea0ca has 7 lines
+File agent chatbot\.git\objects\43\83af080094b7c58a25a5d489bb04eb97afdbb1 has 6 lines
+File agent chatbot\.git\objects\40\75a773dca4e9453cf833c29f56c169cd720fe7 has 13 lines
+File agent chatbot\.git\objects\3f\7e5a4b197a23306a9912e3021452711f6ceec3 has 1 lines
+File agent chatbot\.git\objects\3e\19a14972e68d61f3537056e024f838c4ca7138 has 343 lines
+File agent chatbot\.git\objects\3d\0ad9822727bdbf62ce26a6be403fef61692879 has 2 lines
+File agent chatbot\.git\objects\3c\fdc5c94a4e48488f62527fb1ad11dfa65631ba has 2 lines
+File agent chatbot\.git\objects\3b\f69b641c8c0cb230b9fead6f7bfc9f73f5cf1c has 3 lines
+File agent chatbot\.git\objects\3a\5e10b8eaebafa6711efd014a954145533f08bb has 239 lines
+File agent chatbot\.git\objects\38\385baa5f497bd321b6a7994313dd1b3b255b6c has 6 lines
+File agent chatbot\.git\objects\38\9c19db51ed66f39904fce0d86c03b58601e824 has 37 lines
+File agent chatbot\.git\objects\35\3ab6bd563f0731687146a4ab33145b318311e9 has 11 lines
+File agent chatbot\.git\objects\35\dd1a8dc54114f15895c3464d8616c6ab5eb6bb has 14 lines
+File agent chatbot\.git\objects\30\059a0412537beb334da793f4ee16a047906444 has 9 lines
+File agent chatbot\.git\objects\30\5cf4b9784a9338dcac131753ded7a6ff383482 has 527 lines
+File agent chatbot\.git\objects\2d\5c60f565d2401aadb425f4fc567d81ea1298ae has 441 lines
+File agent chatbot\.git\objects\2a\a6f4ae97990a5b7ccb701103f3b829664b15cd has 2 lines
+File agent chatbot\.git\objects\29\bf96e4a1ab02647d056297d752acc0603fd33d has 358 lines
+File agent chatbot\.git\objects\25\4b3012cee1fb07b175c7133c00ec37e9468b78 has 358 lines
+File agent chatbot\.git\objects\23\130f93a5bd5fb7a7c1c37493c258f2fa738e0a has 20 lines
+File agent chatbot\.git\objects\22\4e026d49a66eedd3c03e8aa5b6e8828cc23b00 has 459 lines
+File agent chatbot\.git\objects\22\86c371ee8273ef28f034885459acc6e0bc08ec has 1 lines
+File agent chatbot\.git\objects\20\f48b640cceb193a98ed5143c1129069ce12d89 has 1 lines
+File agent chatbot\.git\objects\1e\3034dc24a2e3d2b2ce3dea1739bb44e7ac34b4 has 1344 lines
+File agent chatbot\.git\objects\1e\997c77292152c9634d07fbd1cc5b954bfa020c has 632 lines
+File agent chatbot\.git\objects\1d\4e9cc044a35f0c90448a245cb506efee362f14 has 262 lines
+File agent chatbot\.git\objects\1c\4530ea42255aaa6f277f6d095cb5e18698be60 has 312 lines
+File agent chatbot\.git\objects\1a\595a84725946a1ba7ee285efe9d22a90f0a046 has 46 lines
+File agent chatbot\.git\objects\19\fe81e619a66db324d8b82a6ae09f34e2f21153 has 32 lines
+File agent chatbot\.git\objects\16\0fc4f9a8facc875adb99e035f8793f67ad745d has 304 lines
+File agent chatbot\.git\objects\15\ac304b05197f6e04fe9a1b0caddf8b4f6bd1b7 has 908 lines
+File agent chatbot\.git\objects\13\2deed393b92b5dd15ccff98fcd0a7b2eb1ece0 has 317 lines
+File agent chatbot\.git\objects\13\a8f2176d9647e6070c99f0400dc2792ffb66bb has 32 lines
+File agent chatbot\.git\objects\12\53113f5d78360e23a350dbf8dcdef21e046c08 has 52 lines
+File agent chatbot\.git\objects\11\7319bf7f6d85a413bb759fb8eed6bda47ff3a1 has 1 lines
+File agent chatbot\.git\objects\0e\54aa098fadfcbf62375841617c16e5d24cc22e has 1 lines
+File agent chatbot\.git\objects\0d\1aaed9e6256edd211987a27e836b7b2ec348c8 has 4 lines
+File agent chatbot\.git\objects\0d\b2f0edeec44ed03bda5722420723abf6769bc2 has 16 lines
+File agent chatbot\.git\objects\0a\0a63ee4046933860e2f76311ff606acde5725e has 46 lines
+File agent chatbot\.git\objects\0a\2669d7a25a137ae4164f2460f3c4db756c2e43 has 2 lines
+File agent chatbot\.git\objects\07\139385d2a5f62bc601f5167cd8b04f3b2d92f2 has 8 lines
+File agent chatbot\.git\objects\03\18cb43d360956bf8f1e9e9a86572431874c47d has 1 lines
+File agent chatbot\.git\objects\03\1b9112f559e474e5e93cbec8a4b2c488f2c93f has 622 lines
+File agent chatbot\.git\objects\03\a7b1d46f5ff88375c7fc2fe7d0eb23f24d5706 has 5 lines
+File agent chatbot\.git\objects\02\c597e11e4a12162f1000288349cd65a176c6c5 has 1 lines
+File agent chatbot\.git\objects\01\b1b2039c4479774059ee544e1064c01bd8fb69 has 406 lines
+Folder agent chatbot\.git\objects\01 has 406 lines
+Folder agent chatbot\.git\objects\02 has 1 lines
+Folder agent chatbot\.git\objects\03 has 628 lines
+Folder agent chatbot\.git\objects\07 has 8 lines
+Folder agent chatbot\.git\objects\0a has 48 lines
+Folder agent chatbot\.git\objects\0d has 20 lines
+Folder agent chatbot\.git\objects\0e has 1 lines
+Folder agent chatbot\.git\objects\11 has 1 lines
+Folder agent chatbot\.git\objects\12 has 52 lines
+Folder agent chatbot\.git\objects\13 has 349 lines
+Folder agent chatbot\.git\objects\15 has 908 lines
+Folder agent chatbot\.git\objects\16 has 304 lines
+Folder agent chatbot\.git\objects\19 has 32 lines
+Folder agent chatbot\.git\objects\1a has 46 lines
+Folder agent chatbot\.git\objects\1c has 312 lines
+Folder agent chatbot\.git\objects\1d has 262 lines
+Folder agent chatbot\.git\objects\1e has 1976 lines
+Folder agent chatbot\.git\objects\20 has 1 lines
+Folder agent chatbot\.git\objects\22 has 460 lines
+Folder agent chatbot\.git\objects\23 has 20 lines
+Folder agent chatbot\.git\objects\25 has 358 lines
+Folder agent chatbot\.git\objects\29 has 358 lines
+Folder agent chatbot\.git\objects\2a has 2 lines
+Folder agent chatbot\.git\objects\2d has 441 lines
+Folder agent chatbot\.git\objects\30 has 536 lines
+Folder agent chatbot\.git\objects\35 has 25 lines
+Folder agent chatbot\.git\objects\38 has 43 lines
+Folder agent chatbot\.git\objects\3a has 239 lines
+Folder agent chatbot\.git\objects\3b has 3 lines
+Folder agent chatbot\.git\objects\3c has 2 lines
+Folder agent chatbot\.git\objects\3d has 2 lines
+Folder agent chatbot\.git\objects\3e has 343 lines
+Folder agent chatbot\.git\objects\3f has 1 lines
+Folder agent chatbot\.git\objects\40 has 13 lines
+Folder agent chatbot\.git\objects\43 has 6 lines
+Folder agent chatbot\.git\objects\47 has 12 lines
+Folder agent chatbot\.git\objects\48 has 4 lines
+Folder agent chatbot\.git\objects\50 has 527 lines
+Folder agent chatbot\.git\objects\51 has 14 lines
+Folder agent chatbot\.git\objects\52 has 586 lines
+Folder agent chatbot\.git\objects\53 has 25 lines
+Folder agent chatbot\.git\objects\58 has 14 lines
+Folder agent chatbot\.git\objects\5c has 1 lines
+Folder agent chatbot\.git\objects\5e has 30 lines
+Folder agent chatbot\.git\objects\60 has 6 lines
+Folder agent chatbot\.git\objects\65 has 9 lines
+Folder agent chatbot\.git\objects\69 has 5 lines
+Folder agent chatbot\.git\objects\6a has 444 lines
+Folder agent chatbot\.git\objects\6c has 10 lines
+Folder agent chatbot\.git\objects\6d has 8 lines
+Folder agent chatbot\.git\objects\6e has 5 lines
+Folder agent chatbot\.git\objects\70 has 242 lines
+Folder agent chatbot\.git\objects\71 has 12 lines
+Folder agent chatbot\.git\objects\73 has 61 lines
+Folder agent chatbot\.git\objects\74 has 324 lines
+Folder agent chatbot\.git\objects\75 has 12 lines
+Folder agent chatbot\.git\objects\77 has 86 lines
+Folder agent chatbot\.git\objects\79 has 673 lines
+Folder agent chatbot\.git\objects\7c has 23 lines
+Folder agent chatbot\.git\objects\7e has 9 lines
+Folder agent chatbot\.git\objects\7f has 1 lines
+Folder agent chatbot\.git\objects\80 has 2 lines
+Folder agent chatbot\.git\objects\82 has 100 lines
+Folder agent chatbot\.git\objects\85 has 8 lines
+Folder agent chatbot\.git\objects\86 has 301 lines
+Folder agent chatbot\.git\objects\88 has 7 lines
+Folder agent chatbot\.git\objects\8c has 15 lines
+Folder agent chatbot\.git\objects\92 has 2 lines
+Folder agent chatbot\.git\objects\95 has 6 lines
+Folder agent chatbot\.git\objects\96 has 10 lines
+Folder agent chatbot\.git\objects\9b has 25 lines
+Folder agent chatbot\.git\objects\9d has 2 lines
+Folder agent chatbot\.git\objects\a0 has 12 lines
+Folder agent chatbot\.git\objects\a1 has 25 lines
+Folder agent chatbot\.git\objects\a2 has 2 lines
+Folder agent chatbot\.git\objects\a5 has 163 lines
+Folder agent chatbot\.git\objects\a9 has 24 lines
+Folder agent chatbot\.git\objects\ae has 9 lines
+Folder agent chatbot\.git\objects\af has 339 lines
+Folder agent chatbot\.git\objects\b0 has 281 lines
+Folder agent chatbot\.git\objects\b1 has 43 lines
+Folder agent chatbot\.git\objects\b7 has 3 lines
+Folder agent chatbot\.git\objects\ba has 21 lines
+Folder agent chatbot\.git\objects\bb has 337 lines
+Folder agent chatbot\.git\objects\bc has 4 lines
+Folder agent chatbot\.git\objects\bd has 4 lines
+Folder agent chatbot\.git\objects\c0 has 91 lines
+Folder agent chatbot\.git\objects\c2 has 507 lines
+Folder agent chatbot\.git\objects\c3 has 1 lines
+Folder agent chatbot\.git\objects\c6 has 240 lines
+Folder agent chatbot\.git\objects\c7 has 504 lines
+Folder agent chatbot\.git\objects\c8 has 23 lines
+Folder agent chatbot\.git\objects\c9 has 74 lines
+Folder agent chatbot\.git\objects\cc has 2 lines
+Folder agent chatbot\.git\objects\d2 has 8 lines
+Folder agent chatbot\.git\objects\d3 has 6 lines
+Folder agent chatbot\.git\objects\d4 has 1 lines
+Folder agent chatbot\.git\objects\d6 has 33 lines
+Folder agent chatbot\.git\objects\d7 has 45 lines
+Folder agent chatbot\.git\objects\d9 has 13 lines
+Folder agent chatbot\.git\objects\db has 15 lines
+Folder agent chatbot\.git\objects\dd has 43 lines
+Folder agent chatbot\.git\objects\e1 has 20 lines
+Folder agent chatbot\.git\objects\e4 has 1 lines
+Folder agent chatbot\.git\objects\e6 has 1 lines
+Folder agent chatbot\.git\objects\e7 has 46 lines
+Folder agent chatbot\.git\objects\e8 has 10 lines
+Folder agent chatbot\.git\objects\e9 has 38 lines
+Folder agent chatbot\.git\objects\ee has 433 lines
+Folder agent chatbot\.git\objects\f0 has 252 lines
+Folder agent chatbot\.git\objects\f4 has 23 lines
+Folder agent chatbot\.git\objects\f5 has 41 lines
+Folder agent chatbot\.git\objects\f6 has 11 lines
+Folder agent chatbot\.git\objects\fa has 11 lines
+Folder agent chatbot\.git\objects\fb has 5 lines
+Folder agent chatbot\.git\objects\fd has 4786 lines
+Folder agent chatbot\.git\objects\ff has 17 lines
+Folder agent chatbot\.git\objects\info has 0 lines
+Folder agent chatbot\.git\objects\pack has 0 lines
+File agent chatbot\.git\logs\refs\remotes\orgin\HEAD has 2 lines
+File agent chatbot\.git\logs\refs\remotes\orgin\main has 2 lines
+Folder agent chatbot\.git\logs\refs\remotes\orgin has 4 lines
+File agent chatbot\.git\logs\refs\heads\main has 2 lines
+Folder agent chatbot\.git\logs\refs\heads has 2 lines
+Folder agent chatbot\.git\logs\refs\remotes has 4 lines
+File agent chatbot\.git\logs\HEAD has 2 lines
+Folder agent chatbot\.git\logs\refs has 6 lines
+File agent chatbot\.git\info\exclude has 7 lines
+File agent chatbot\.git\hooks\applypatch-msg.sample has 16 lines
+File agent chatbot\.git\hooks\commit-msg.sample has 25 lines
+File agent chatbot\.git\hooks\fsmonitor-watchman.sample has 175 lines
+File agent chatbot\.git\hooks\post-update.sample has 9 lines
+File agent chatbot\.git\hooks\pre-applypatch.sample has 15 lines
+File agent chatbot\.git\hooks\pre-commit.sample has 50 lines
+File agent chatbot\.git\hooks\pre-merge-commit.sample has 14 lines
+File agent chatbot\.git\hooks\pre-push.sample has 54 lines
+File agent chatbot\.git\hooks\pre-rebase.sample has 170 lines
+File agent chatbot\.git\hooks\pre-receive.sample has 25 lines
+File agent chatbot\.git\hooks\prepare-commit-msg.sample has 43 lines
+File agent chatbot\.git\hooks\push-to-checkout.sample has 79 lines
+File agent chatbot\.git\hooks\sendemail-validate.sample has 78 lines
+File agent chatbot\.git\hooks\update.sample has 129 lines
+File agent chatbot\.git\COMMIT_EDITMSG has 2 lines
+File agent chatbot\.git\config has 15 lines
+File agent chatbot\.git\description has 2 lines
+File agent chatbot\.git\FETCH_HEAD has 2 lines
+File agent chatbot\.git\HEAD has 2 lines
+Folder agent chatbot\.git\hooks has 882 lines
+File agent chatbot\.git\index has 59 lines
+Folder agent chatbot\.git\info has 7 lines
+Folder agent chatbot\.git\logs has 8 lines
+Folder agent chatbot\.git\objects has 20396 lines
+Folder agent chatbot\.git\refs has 6 lines
+Folder agent chatbot\.git has 21381 lines
+File agent chatbot\.gitignore has 226 lines
+Folder agent chatbot\adk-docs has 2118 lines
+Folder agent chatbot\agents has 17168 lines
+File agent chatbot\app.py has 796 lines
+File agent chatbot\code has 7 lines
+File agent chatbot\CONTRIBUTING.md has 33 lines
+File agent chatbot\customer_agent_comparison_analysis.md has 371 lines
+File agent chatbot\customer_service_enhancement_plan.md has 112 lines
+Folder agent chatbot\cymbal_home_garden_backend has 36861 lines
+File agent chatbot\database_setup.py has 111 lines
+File agent chatbot\ecommerce.db has 146 lines
+File agent chatbot\generate_vertex_ai_jsonl.py has 118 lines
+File agent chatbot\LICENSE has 201 lines
+Folder agent chatbot\memory-bank has 0 lines
+File agent chatbot\minimal_image_test_script.py has 179 lines
+Folder agent chatbot\node_modules has 0 lines
+File agent chatbot\package-lock.json has 1028 lines
+File agent chatbot\package.json has 26 lines
+File agent chatbot\plan-cart-sidebar-agent-animation.md has 164 lines
+File agent chatbot\plan-image-accuracy-improvement.md has 134 lines
+Folder agent chatbot\plant_shop_mvp has 20 lines
+File agent chatbot\products_vertex_ai.jsonl has 32 lines
+File agent chatbot\project_workflow_diagram.md has 94 lines
+File agent chatbot\proxy-server.js has 216 lines
+File agent chatbot\README.md has 77 lines
+File agent chatbot\requirements.txt has 16 lines
+File agent chatbot\sample_data_importer.py has 423 lines
+File agent chatbot\test_api.py has 946 lines
+File agent chatbot\test_jsonl_validity.py has 76 lines
+Folder agent chatbot\venv has 0 lines
+Folder agent chatbot\__pycache__ has 523 lines
+File .VSCodeCounter\2025-08-09_20-39-08\details.md has 44 lines
+File .VSCodeCounter\2025-08-09_20-39-08\diff-details.md has 26903 lines
+File .VSCodeCounter\2025-08-09_20-39-08\diff.csv has 26890 lines
+File .VSCodeCounter\2025-08-09_20-39-08\diff.md has 3478 lines
+File .VSCodeCounter\2025-08-09_20-39-08\diff.txt has 30369 lines
+File .VSCodeCounter\2025-08-09_20-39-08\results.csv has 31 lines
+File .VSCodeCounter\2025-08-09_20-39-08\results.json has 1 lines
+File .VSCodeCounter\2025-08-09_20-39-08\results.md has 40 lines
+File .VSCodeCounter\2025-08-09_20-39-08\results.txt has 72 lines
+File .VSCodeCounter\2025-08-09_20-38-47\details.md has 44 lines
+File .VSCodeCounter\2025-08-09_20-38-47\diff-details.md has 26903 lines
+File .VSCodeCounter\2025-08-09_20-38-47\diff.csv has 26890 lines
+File .VSCodeCounter\2025-08-09_20-38-47\diff.md has 3478 lines
+File .VSCodeCounter\2025-08-09_20-38-47\diff.txt has 30369 lines
+File .VSCodeCounter\2025-08-09_20-38-47\results.csv has 31 lines
+File .VSCodeCounter\2025-08-09_20-38-47\results.json has 1 lines
+File .VSCodeCounter\2025-08-09_20-38-47\results.md has 40 lines
+File .VSCodeCounter\2025-08-09_20-38-47\results.txt has 72 lines
+File .VSCodeCounter\2025-08-09_20-33-35\details.md has 26932 lines
+File .VSCodeCounter\2025-08-09_20-33-35\diff-details.md has 26910 lines
+File .VSCodeCounter\2025-08-09_20-33-35\diff.csv has 26897 lines
+File .VSCodeCounter\2025-08-09_20-33-35\diff.md has 3491 lines
+File .VSCodeCounter\2025-08-09_20-33-35\diff.txt has 30389 lines
+File .VSCodeCounter\2025-08-09_20-33-35\results.csv has 26919 lines
+File .VSCodeCounter\2025-08-09_20-33-35\results.json has 1 lines
+File .VSCodeCounter\2025-08-09_20-33-35\results.md has 3495 lines
+File .VSCodeCounter\2025-08-09_20-33-35\results.txt has 30415 lines
+File .VSCodeCounter\2025-08-09_20-32-31\details.md has 37 lines
+File .VSCodeCounter\2025-08-09_20-32-31\diff-details.md has 203 lines
+File .VSCodeCounter\2025-08-09_20-32-31\diff.csv has 190 lines
+File .VSCodeCounter\2025-08-09_20-32-31\diff.md has 105 lines
+File .VSCodeCounter\2025-08-09_20-32-31\diff.txt has 296 lines
+File .VSCodeCounter\2025-08-09_20-32-31\results.csv has 24 lines
+File .VSCodeCounter\2025-08-09_20-32-31\results.json has 1 lines
+File .VSCodeCounter\2025-08-09_20-32-31\results.md has 28 lines
+File .VSCodeCounter\2025-08-09_20-32-31\results.txt has 53 lines
+File .VSCodeCounter\2025-08-09_20-31-38\details.md has 34625 lines
+File .VSCodeCounter\2025-08-09_20-31-38\diff-details.md has 7708 lines
+File .VSCodeCounter\2025-08-09_20-31-38\diff.csv has 7695 lines
+File .VSCodeCounter\2025-08-09_20-31-38\diff.md has 1605 lines
+File .VSCodeCounter\2025-08-09_20-31-38\diff.txt has 9301 lines
+File .VSCodeCounter\2025-08-09_20-31-38\results.csv has 34612 lines
+File .VSCodeCounter\2025-08-09_20-31-38\results.json has 1 lines
+File .VSCodeCounter\2025-08-09_20-31-38\results.md has 5060 lines
+File .VSCodeCounter\2025-08-09_20-31-38\results.txt has 39673 lines
+File .VSCodeCounter\2025-08-09_20-24-37\details.md has 225 lines
+File .VSCodeCounter\2025-08-09_20-24-37\diff-details.md has 15 lines
+File .VSCodeCounter\2025-08-09_20-24-37\diff.csv has 2 lines
+File .VSCodeCounter\2025-08-09_20-24-37\diff.md has 19 lines
+File .VSCodeCounter\2025-08-09_20-24-37\diff.txt has 22 lines
+File .VSCodeCounter\2025-08-09_20-24-37\results.csv has 212 lines
+File .VSCodeCounter\2025-08-09_20-24-37\results.json has 1 lines
+File .VSCodeCounter\2025-08-09_20-24-37\results.md has 108 lines
+File .VSCodeCounter\2025-08-09_20-24-37\results.txt has 321 lines
+Folder .VSCodeCounter\2025-08-09_20-24-37 has 925 lines
+Folder .VSCodeCounter\2025-08-09_20-31-38 has 140280 lines
+Folder .VSCodeCounter\2025-08-09_20-32-31 has 937 lines
+Folder .VSCodeCounter\2025-08-09_20-33-35 has 175449 lines
+Folder .VSCodeCounter\2025-08-09_20-38-47 has 87828 lines
+Folder .VSCodeCounter\2025-08-09_20-39-08 has 87828 lines
+Folder .git has 0 lines
+File .gitignore has 40 lines
+File .roomodes has 5 lines
+Folder .venv has 0 lines
+Folder .vscode has 0 lines
+Folder .VSCodeCounter has 493247 lines
+Folder agent chatbot has 83603 lines
+File bgc.jpeg has 64 lines
+File characterization_and_design.md has 118 lines
+Folder chatbot-backend has 117653 lines
+Folder chatbot-frontend has 116785 lines
+Folder chatbot-widget has 9697 lines
+File combined_haystack.txt has 1 lines
+Folder doc has 203 lines
+Folder docs has 1761 lines
+File hyper_detailed_project_plan.md has 40 lines
+File implementation.md has 89 lines
+Folder memory-bank has 0 lines
+Folder node_modules has 0 lines
+Folder out has 184925 lines
+File package-lock.json has 365 lines
+File package.json has 6 lines
+File ProjectBook.md has 432 lines
+File project_book.md has 14 lines
+File rag_benchmark_results.json has 5902 lines
+File revised_implementation.md has 186 lines
+File scenarios.md has 88 lines
+File start_all.bat has 27 lines
+File test_multilingual_embeddings.py has 193 lines
+File theoretical_background.md has 39 lines
+Total number of lines: 1015483
