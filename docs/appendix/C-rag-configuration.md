@@ -8,7 +8,7 @@ Purpose: Quick reference for key parameters and isolation rules.
 - GENERATION_MAX_TOKENS: 2048 (env: GENERATION_MAX_TOKENS)
 - GENERATION_TEMPERATURE: 0.3 (env: GENERATION_TEMPERATURE)
 - EMBEDDING_MODEL_NAME: gemini-embedding-001
-- GENERATION_MODEL_NAME: gemini-2.5-flash-preview-04-17
+- GENERATION_MODEL_NAME: gemini-2.5-flash
 
 ## C.2 Retrieval & reranking
 - Matching Engine filter: Namespace(name="chatbot_id", allow_tokens=[str(chatbot_id)])
@@ -28,11 +28,11 @@ Purpose: Quick reference for key parameters and isolation rules.
 - Mapping table: VectorIdMapping.vector_id → source_identifier (file:// or http(s)://)
 
 ## C.6 Environment variables (selected)
-- PROJECT_ID, GOOGLE_CLOUD_PROJECT: default "roo-code-459017"
+- PROJECT_ID, GOOGLE_CLOUD_PROJECT: default "elemental-day-467117-h4"
 - REGION: default "us-central1"
-- BUCKET_NAME: default "was-bucket4"
-- INDEX_ENDPOINT_ID: default "7916908131475521536"
-- DEPLOYED_INDEX_ID: default "deployed_1746727342706"
+- BUCKET_NAME: default "was-bucket41"
+- INDEX_ENDPOINT_ID: default "3539233371810955264"
+- DEPLOYED_INDEX_ID: default "dep2_1755338314917"
 - GOOGLE_GENAI_USE_VERTEXAI: default False (must be True for Vertex routing)
 - GENERATION_MAX_TOKENS: default 2048
 - GENERATION_TEMPERATURE: default 0.3

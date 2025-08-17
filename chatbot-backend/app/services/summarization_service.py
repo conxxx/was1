@@ -15,9 +15,9 @@ from google.cloud import aiplatform # Though not directly used in init, good pra
 from app.models import Chatbot, db # Assuming db is initialized in app
 
 # --- Configuration (Mirrors rag_service for consistency) ---
-PROJECT_ID = os.environ.get('PROJECT_ID', "roo-code-459017") # Use the same default as RAG
+PROJECT_ID = os.environ.get('PROJECT_ID', "elemental-day-467117-h4") # Use the same default as RAG
 REGION = os.environ.get('REGION', "us-central1") # Use the same default as RAG
-GEMINI_MODEL_NAME = 'gemini-2.5-flash-preview-04-17' # Model for summarization/translation tasks
+GEMINI_MODEL_NAME = 'gemini-2.5-flash' # Model for summarization/translation tasks
 
 # --- Safety Settings (Mirrors rag_service) ---
 SAFETY_SETTINGS = {

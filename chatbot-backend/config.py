@@ -5,7 +5,8 @@ from dotenv import load_dotenv
 
 # Load environment variables from .env file
 basedir = os.path.abspath(os.path.dirname(__file__))
-load_dotenv(os.path.join(basedir, '.env'))
+# Force .env values to override any pre-set OS/user env vars (e.g., stale GOOGLE_APPLICATION_CREDENTIALS)
+load_dotenv(os.path.join(basedir, '.env'), override=True)
 
 class Config:
     SECRET_KEY = os.environ.get('SECRET_KEY') or 'you-will-never-guess' # CHANGE IN PRODUCTION!
@@ -33,19 +34,19 @@ class Config:
     MAIL_DEFAULT_SENDER = os.environ.get('MAIL_DEFAULT_SENDER')
     
     # GCP configurations
-    PROJECT_ID = os.environ.get('PROJECT_ID', "roo-code-459017")
-    GOOGLE_CLOUD_PROJECT = os.environ.get('GOOGLE_CLOUD_PROJECT', "roo-code-459017")
+    PROJECT_ID = os.environ.get('PROJECT_ID', "elemental-day-467117-h4")
+    GOOGLE_CLOUD_PROJECT = os.environ.get('GOOGLE_CLOUD_PROJECT', "elemental-day-467117-h4")
     REGION = os.environ.get('REGION', "us-central1")
-    BUCKET_NAME = os.environ.get('BUCKET_NAME', "was-bucket4")
-    INDEX_ENDPOINT_ID = os.environ.get('INDEX_ENDPOINT_ID', "7916908131475521536")
-    INDEX_ID = os.environ.get('DEPLOYED_INDEX_ID', "deployed_1746727342706")
+    BUCKET_NAME = os.environ.get('BUCKET_NAME', "was-bucket41")
+    INDEX_ENDPOINT_ID = os.environ.get('INDEX_ENDPOINT_ID', "3539233371810955264")
+    INDEX_ID = os.environ.get('DEPLOYED_INDEX_ID', "dep2_1755338314917")
 
 
     # --- Model Names ---
     # NEW: Update the default or ensure the environment variable is set to the new model
     EMBEDDING_MODEL_NAME = os.environ.get('EMBEDDING_MODEL_NAME', "gemini-embedding-001") # TDD_ANCHOR: test_config_loads_correct_embedding_model
-    GENERATION_MODEL_NAME = os.environ.get('GENERATION_MODEL_NAME', "gemini-2.5-flash-preview-04-17")
-    #REPHRASE_MODEL_NAME = os.environ.get('REPHRASE_MODEL_NAME', "gemini-2.5-flash-preview-04-17")
+    GENERATION_MODEL_NAME = os.environ.get('GENERATION_MODEL_NAME', "gemini-2.5-flash")
+    #REPHRASE_MODEL_NAME = os.environ.get('REPHRASE_MODEL_NAME', "gemini-2.5-flash")
     
 # --- RAG & Generation Configuration ---
     GENERATION_MAX_TOKENS = int(os.environ.get('GENERATION_MAX_TOKENS', 2048)) # Increased default from 512

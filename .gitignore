@@ -37,4 +37,4 @@ chatbot-backend/migrations/versions/e6c28445ae49_add_logo_path_to_chatbot_model.
 chatbot-backend/migrations/versions/ed046e7776dd_add_source_document_language_to_chatbot.py
 memory-bank/.gitignore
 chatbot-backend/.gitignore
-roo-code-459017-8247a05a37d7.json
+elemental-day-467117-h4-397b220c8576.json

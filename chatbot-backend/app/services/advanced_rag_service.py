@@ -54,8 +54,8 @@ class AdvancedRagProcessor:
         self.cross_encoder_model_name = None
 
         try:
-            rephrasing_model_name = current_app.config.get('QUERY_REPHRASING_MODEL_NAME', "gemini-2.5-flash-preview-04-17")
-            final_response_model_name = current_app.config.get('FINAL_RESPONSE_MODEL_NAME', "gemini-2.5-flash-preview-04-17")
+            rephrasing_model_name = current_app.config.get('QUERY_REPHRASING_MODEL_NAME', "gemini-2.5-flash")
+            final_response_model_name = current_app.config.get('FINAL_RESPONSE_MODEL_NAME', "gemini-2.5-flash")
 
             self.rephrasing_llm = GenerativeModel(rephrasing_model_name)
             self.final_llm = GenerativeModel(final_response_model_name)

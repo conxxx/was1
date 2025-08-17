@@ -16,7 +16,7 @@ import numpy as np # Added for similarity calculation
 
 # Option 2: Set Project ID and Location directly in the script (Less Secure)
 # If you prefer not to use environment variables, uncomment and set these variables:
-os.environ["GOOGLE_CLOUD_PROJECT"] = "roo-code-459017"
+os.environ["GOOGLE_CLOUD_PROJECT"] = "elemental-day-467117-h4"
 os.environ["GOOGLE_CLOUD_LOCATION"] = "us-central1"
 # Removed GOOGLE_GENAI_USE_VERTEXAI as it's not needed for google-cloud-aiplatform SDK
 

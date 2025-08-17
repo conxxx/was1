@@ -71,11 +71,11 @@ RECURSIVE_CHUNK_OVERLAP = 80# Overlap (adjust based on testing)
 # --------------------------------------------------
 
 # --- GCP Config (Ideally load from app.config which reads .env) ---
-PROJECT_ID = os.environ.get('PROJECT_ID', "roo-code-459017")
+PROJECT_ID = os.environ.get('PROJECT_ID', "elemental-day-467117-h4")
 REGION = os.environ.get('REGION', "us-central1")
-BUCKET_NAME = os.environ.get('BUCKET_NAME', "was-bucket4")
+BUCKET_NAME = os.environ.get('BUCKET_NAME', "was-bucket41")
 # *** INDEX_ENDPOINT_ID Needed to get Index client object ***
-INDEX_ENDPOINT_ID = os.environ.get('INDEX_ENDPOINT_ID', "7916908131475521536") # Updated endpoint ID
+INDEX_ENDPOINT_ID = os.environ.get('INDEX_ENDPOINT_ID', "3539233371810955264") # Updated endpoint ID
 INDEX_ID = os.environ.get('INDEX_ID', "6453695649417265152") # Updated index ID
 # --- End Constants ---
 

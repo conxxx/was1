@@ -143,7 +143,7 @@ This document outlines the plan for implementing an image analysis feature withi
       === RETRIEVED CONTEXT DOCUMENTS END ===
       ```
 *   **Modify `RagService.generate_response`:**
-    *   Ensure the `GenerativeModel` used (`self.generation_model`) is a multimodal model (e.g., `gemini-2.5-flash-preview-04-17` or `gemini-2.5-flash-preview-04-17`). Update `GENERATION_MODEL_NAME` constant.
+    *   Ensure the `GenerativeModel` used (`self.generation_model`) is a multimodal model (e.g., `gemini-2.5-flash` or `gemini-2.5-flash`). Update `GENERATION_MODEL_NAME` constant.
     *   Modify the call to `self.generation_model.generate_content` to potentially include the image data directly alongside the text prompt if the chosen approach involves direct multimodal input rather than just text description. This requires structuring the `contents` argument correctly according to the Vertex AI SDK for multimodal inputs.
       *   *Chosen Approach Refinement:* Pass the image data directly to the final generation model. Modify `generate_response` to accept `image_data` and construct the `contents` list with both text (the prompt) and image parts. Modify `execute_pipeline` to pass `image_data` down to `generate_response`. Remove the intermediate `image_analysis_result` from `construct_prompt` if the image is passed directly to `generate_response`.
 
@@ -166,7 +166,7 @@ This document outlines the plan for implementing an image analysis feature withi
 1.  Modify `execute_pipeline` signature to accept `image_data: bytes = None`.
 2.  Fetch chatbot settings within `execute_pipeline` (or ensure they are passed in) to check `image_analysis_enabled`.
 3.  Modify `generate_response` signature to accept `image_data: bytes = None`.
-4.  Update the `GENERATION_MODEL_NAME` constant to a multimodal Gemini model (e.g., "gemini-2.5-flash-preview-04-17"). Re-initialize `self.generation_model` accordingly.
+4.  Update the `GENERATION_MODEL_NAME` constant to a multimodal Gemini model (e.g., "gemini-2.5-flash"). Re-initialize `self.generation_model` accordingly.
 5.  Inside `generate_response`:
     *   If `image_data` is present:
         *   **Dynamically Determine MIME Type:** Get the MIME type from the validated uploaded file data (e.g., from validation step 4.1.1 or request metadata). Do *not* hardcode it. Example: `mime_type = determine_mime_type(image_data)`
@@ -299,7 +299,7 @@ Image Size/Formats: Define limits on upload size (e.g., via frontend checks and 
 Prompt Engineering: Crafting effective prompts that instruct the LLM to utilize both the image content and the retrieved text context effectively will require iteration.
 Error Handling: Robust handling for failed image uploads, analysis errors, or unsupported formats is crucial.
 Security: Ensure proper validation of uploaded files on the backend to prevent potential security risks (though sending directly to Vertex AI mitigates some risks compared to processing locally).
-Gemini Model Version: Ensure the selected Gemini model version (gemini-2.5-flash-preview-04-17 or gemini-2.5-flash-preview-04-17-001) is available in the specified GCP region and supports the required multimodal input format.
+Gemini Model Version: Ensure the selected Gemini model version (gemini-2.5-flash or gemini-2.5-flash-001) is available in the specified GCP region and supports the required multimodal input format.
 9. Next Steps
 Review and approve this plan.
 Create necessary database migrations.

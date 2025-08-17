@@ -104,10 +104,10 @@ class RagService:
             region = app_config.get('REGION')
             bucket_name = app_config.get('BUCKET_NAME')
             embedding_model_name = app_config.get('EMBEDDING_MODEL_NAME', "gemini-embedding-001")
-            generation_model_name = app_config.get('GENERATION_MODEL_NAME', "gemini-2.5-flash-preview-04-17")
+            generation_model_name = app_config.get('GENERATION_MODEL_NAME', "gemini-2.5-flash")
             # rephrase_model_name = app_config.get('REPHRASE_MODEL_NAME', generation_model_name) # Removed
             index_endpoint_id = app_config.get('INDEX_ENDPOINT_ID')
-            deployed_index_id = app_config.get('DEPLOYED_INDEX_ID', "deployed_1746727342706")
+            deployed_index_id = app_config.get('DEPLOYEDHey there. Hi Josh, how come you? I wanna buy a tomato lavender. No, I mean an English lavender. I wanna buy an English lavender. OK. _INDEX_ID', "dep2_1755338314917")
 
             # --- Explicitly set GOOGLE_CLOUD_PROJECT and GOOGLE_CLOUD_LOCATION ---
             # This ensures genai.Client() picks up the correct project/location,
@@ -127,6 +127,15 @@ class RagService:
             self.logger.info(f"RAG Service: Initializing Vertex AI SDK (Project: {project_id}, Region: {region})...")
             vertexai.init(project=project_id, location=region)
             self.logger.info("RAG Service: Vertex AI SDK initialized.")
+
+            # Diagnostics: show which credentials file is being used
+            cred_path = os.getenv('%')
+            if cred_path:
+                self.logger.info(f"RAG Service: GOOGLE_APPLICATION_CREDENTIALS currently set to: {cred_path}")
+                if not os.path.isfile(cred_path):
+                    self.logger.error(f"RAG Service: Credential file path does not exist on disk: {cred_path}")
+            else:
+                self.logger.warning("RAG Service: GOOGLE_APPLICATION_CREDENTIALS not set in environment.")
 
             # --- GCS Client ---
             self.logger.info(f"RAG Service: Initializing GCS Client for bucket '{bucket_name}'...")
