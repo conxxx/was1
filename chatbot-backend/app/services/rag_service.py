@@ -107,7 +107,7 @@ class RagService:
             generation_model_name = app_config.get('GENERATION_MODEL_NAME', "gemini-2.5-flash")
             # rephrase_model_name = app_config.get('REPHRASE_MODEL_NAME', generation_model_name) # Removed
             index_endpoint_id = app_config.get('INDEX_ENDPOINT_ID')
-            deployed_index_id = app_config.get('DEPLOYEDHey there. Hi Josh, how come you? I wanna buy a tomato lavender. No, I mean an English lavender. I wanna buy an English lavender. OK. _INDEX_ID', "dep2_1755338314917")
+            deployed_index_id = app_config.get('DEPLOYED_INDEX_ID', "dep2_1755338314917")
 
             # --- Explicitly set GOOGLE_CLOUD_PROJECT and GOOGLE_CLOUD_LOCATION ---
             # This ensures genai.Client() picks up the correct project/location,
