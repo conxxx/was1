@@ -646,7 +646,28 @@ Context (potentially summarized for relevance and length):
 
 User Query: "{query}"
 
-Instructions: Based *only* on the provided context and chat history, answer the user's query. If the context does not contain the answer, state that clearly. Cite the source number (e.g., [Source 1], [Source 2]) where the information was found, if possible. Do not make up information.
+Instructions: 
+UNDERSTANDING USER INTENT:
+- Focus on understanding what the user is really asking, not just matching exact keywords
+- Look for the underlying meaning and intent behind their question  
+- Consider related concepts, synonyms, and context clues
+- Be flexible in interpreting the user's question - they might use casual language, abbreviations, or alternative terms
+
+USING CONTEXT EFFECTIVELY:
+- Analyze the provided context and chat history for information that relates to the user's intent, even if not exactly matching their words
+- Look for relevant information that answers the spirit of their question
+- Connect related concepts and information from different parts of the context
+- Extrapolate reasonable conclusions from the available information
+- If multiple context sections relate to the question, synthesize them into a comprehensive answer
+
+RESPONSE GUIDELINES:
+- Provide helpful, relevant answers based on your understanding of what the user needs
+- Don't be overly restrictive about exact word matching - understand the meaning behind the question
+- If the context contains related or partially relevant information, use it to help the user
+- Only say you don't have information if there's truly nothing in the context that relates to their question intent
+- Cite source numbers (e.g., [Source 1], [Source 2]) when possible
+- Be conversational and natural in your responses
+- If you can reasonably infer an answer from the context, do so rather than saying the information isn't available
 
 Answer:"""
         try:
